@@ -22,6 +22,11 @@
   },
   "scripts": {
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
-  }
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=b84b99710731"
+  },
+  "name": "",
+  "version": "",
+  "readme": "ERROR: No README data found!",
+  "_id": "@"
 }
