@@ -9,8 +9,12 @@ import './button.css';
 export const Buttons = ({ primary, backgroundColor, size, label, ...props }) => {
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   return (
-    <Button shape="circular">Circular</Button>
-  );
+    <Button 
+    className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
+    style={backgroundColor && { backgroundColor }}
+    {...props}
+    shape="circular">{label}</Button>
+   );
 };
 
 Button.propTypes = {
