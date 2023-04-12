@@ -6,6 +6,7 @@ import {
     Label,
     InputProps, } from "@fluentui/react-components";
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const useStyles = makeStyles({
     root: {
