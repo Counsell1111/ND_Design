@@ -16,7 +16,7 @@ const preview = {
   },
   decorators: [
     (Story) => (
-      <FluentProvider theme={teamsLightTheme}>
+      <FluentProvider>
         {/* 👇 Decorators in Storybook also accept a function. Replace <Story/> with Story() to enable it  */}
         <Story />
         </FluentProvider>
