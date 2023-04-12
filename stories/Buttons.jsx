@@ -10,8 +10,10 @@ export const Buttons = ({ primary, backgroundColor, size, label, ...props }) => 
   const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
   return (
     <Button 
-    className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
+    className={['storybook-button', mode].join(' ')}
     style={backgroundColor && { backgroundColor }}
+    appearance={typer}
+    size={size}
     {...props}
     shape="circular">{label}</Button>
    );
@@ -30,6 +32,7 @@ Button.propTypes = {
    * How large should the button be?
    */
   size: PropTypes.oneOf(['small', 'medium', 'large']),
+  typer: PropTypes.oneOf(['primary', 'outline', 'subtle', 'transparent']),
   /**
    * Button contents
    */
