@@ -13,10 +13,10 @@ export const Inputs = () => {
     const inputId = useId("input");
   return (
     <div>
-    <Label htmlFor={inputId} size={props.size} disabled={props.disabled}>
+    <Label htmlFor={inputId}>
       Sample input
     </Label>
-    <Input id={inputId} {...props} />
+    <Input id={inputId} />
   </div>
    );
 };
