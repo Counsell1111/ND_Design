@@ -3,13 +3,31 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './button.css';
 
+
+const useStyles = makeStyles({
+  innerWrapper: {
+    columnGap: "15px",
+    display: "flex",
+  },
+  outerWrapper: {
+    display: "flex",
+    flexDirection: "column",
+    rowGap: "15px",
+  },
+  ndbutton: {
+    background: "#000",
+  },  
+});
+
 /**
  * Primary UI component for user interaction
  */
 export const Buttons = ({ backgroundColor, size, typer, label, ...props }) => {
+
+  const styles = useStyles();
   return (
     <Button 
-    className={['storybook-button']}
+    className={styles.ndbutton}
     style={backgroundColor && { backgroundColor }}
     appearance={typer}
     size={size}
