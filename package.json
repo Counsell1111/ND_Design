@@ -1,11 +1,27 @@
 {
   "devDependencies": {
-    "chromatic": "^6.17.3"
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.21.4",
+    "@storybook/addon-essentials": "^7.0.4",
+    "@storybook/addon-interactions": "^7.0.4",
+    "@storybook/addon-links": "^7.0.4",
+    "@storybook/blocks": "^7.0.4",
+    "@storybook/react-webpack5": "^7.0.4",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "chromatic": "^6.17.3",
+    "prop-types": "^15.8.1",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.0.4"
   },
   "dependencies": {
     "@fluentui/react": "^8.107.4",
     "@fluentui/react-components": "^9.18.9",
     "@storybook/react": "^7.0.4",
     "react": "^18.2.0"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   }
 }
