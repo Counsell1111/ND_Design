@@ -30,7 +30,7 @@ export const Inputs = ({ size, label, ...props }) => {
     <Label size={size} htmlFor={inputId}>
     {label}
     </Label>
-    <Input size={size} id={inputId} />
+    <Input size={size} placeholder={label} id={inputId} />
   </div>
    );
 };

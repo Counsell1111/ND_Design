@@ -11,24 +11,28 @@ export default {
 
 export const Primary = {
     args: {
+        label: 'Placeholder',
         size:'medium',
       },
 };
 
 export const Secondary = {
     args: {
+      label: 'Placeholder',
       size:'medium',
     },
   };
   
   export const Large = {
     args: {
+      label: 'Placeholder',
       size: 'large',
     },
   };
   
   export const Small = {
     args: {
+      label: 'Placeholder',
       size: 'small',
     },
   };
