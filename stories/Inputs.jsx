@@ -10,15 +10,10 @@ import PropTypes from 'prop-types';
 
 const useStyles = makeStyles({
     root: {
-      display: "flex",
-      flexDirection: "column",
-      ...shorthands.gap("20px"),
-      maxWidth: "400px",
-      "> div": {
-        display: "flex",
-        flexDirection: "column",
-        ...shorthands.gap("2px"),
-      },
+       display: "flex",
+       flexDirection: "column",
+       ...shorthands.gap("2px"),
+       maxWidth: "400px",
     },
   });
 
