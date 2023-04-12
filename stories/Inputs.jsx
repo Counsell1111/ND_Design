@@ -25,7 +25,7 @@ export const Inputs = ({ size, label, ...props }) => {
     const inputId = useId("input");
     const styles = useStyles();
   return (
-    <div>
+    <div className={styles.root}>
     <Label size={size} htmlFor={inputId}>
     {label}
     </Label>
@@ -37,14 +37,8 @@ export const Inputs = ({ size, label, ...props }) => {
 
 Input.propTypes = {
     size: PropTypes.oneOf(['small', 'medium', 'large']),
-    typer: PropTypes.oneOf(['primary', 'outline', 'subtle', 'transparent']),
-    label: PropTypes.string.isRequired,
-    onClick: PropTypes.func,
   };
   
   Input.defaultProps = {
-    backgroundColor: null,
-    primary: false,
     size: 'medium',
-    onClick: undefined,
   };
