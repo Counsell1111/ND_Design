@@ -20,26 +20,11 @@ export const Buttons = ({ primary, backgroundColor, size, typer, label, ...props
 };
 
 Button.propTypes = {
-  /**
-   * Is this the principal call to action on the page?
-   */
   primary: PropTypes.bool,
-  /**
-   * What background color to use
-   */
   backgroundColor: PropTypes.string,
-  /**
-   * How large should the button be?
-   */
   size: PropTypes.oneOf(['small', 'medium', 'large']),
   typer: PropTypes.oneOf(['primary', 'outline', 'subtle', 'transparent']),
-  /**
-   * Button contents
-   */
   label: PropTypes.string.isRequired,
-  /**
-   * Optional click handler
-   */
   onClick: PropTypes.func,
 };
 
