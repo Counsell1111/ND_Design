@@ -6,11 +6,10 @@ import './button.css';
 /**
  * Primary UI component for user interaction
  */
-export const Buttons = ({ primary, backgroundColor, size, typer, label, ...props }) => {
-  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
+export const Buttons = ({ backgroundColor, size, typer, label, ...props }) => {
   return (
     <Button 
-    className={['storybook-button', mode].join(' ')}
+    className={['storybook-button']}
     style={backgroundColor && { backgroundColor }}
     appearance={typer}
     size={size}

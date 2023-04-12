@@ -16,12 +16,14 @@ export default {
 export const Primary = {
   args: {
     label: 'Button',
+    size:'medium',
     appearance: 'primary',
   },
 };
 
 export const Secondary = {
   args: {
+    size:'medium',
     label: 'Button',
   },
 };
