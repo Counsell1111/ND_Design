@@ -22,17 +22,15 @@ const useStyles = makeStyles({
 /**
  * Primary UI component for user interaction
  */
-export const Buttons = ({ backgroundColor, size, typer, label, ...props }) => {
+export const Buttons = ({ size, typer, label, ...props }) => {
 
   const styles = useStyles();
   return (
     <Button 
-    className={styles.ndbutton}
-    style={backgroundColor && { backgroundColor }}
     appearance={typer}
     size={size}
     {...props}
-    shape="circular">{label}</Button>
+    >{label}</Button>
    );
 };
 
