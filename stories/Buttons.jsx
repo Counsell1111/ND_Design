@@ -1,7 +1,7 @@
 import { makeStyles, Button } from "@fluentui/react-components";
 import React from 'react';
 import PropTypes from 'prop-types';
-import './button.css';
+import './global.css';
 
 
 const useStyles = makeStyles({
