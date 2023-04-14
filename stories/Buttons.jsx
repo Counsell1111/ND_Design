@@ -29,6 +29,7 @@ export const Buttons = ({ size, typer, label, ...props }) => {
     <Button 
     appearance={typer}
     size={size}
+    shape="circular"
     {...props}
    >{label}</Button>
    );
