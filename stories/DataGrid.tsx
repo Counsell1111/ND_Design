@@ -21,6 +21,7 @@ import {
     DocumentPdfRegular,
     VideoRegular,
   } from "@fluentui/react-icons";
+  import PropTypes from 'prop-types';
   
   type FileCell = {
     label: string;
@@ -191,4 +192,11 @@ import {
         </DataGridBody>
       </DataGrid>
     );
+  };
+
+
+DataGrid.propTypes = {
+  };
+  
+  DataGrid.defaultProps = {
   };
