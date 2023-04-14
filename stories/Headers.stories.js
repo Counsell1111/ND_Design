@@ -3,7 +3,7 @@ import { Header } from './Headers';
 
 export default {
   title: 'Components/Headers',
-  component: Headers,
+  component: Header,
   tags: ['autodocs'],
   argTypes: {             
   },
