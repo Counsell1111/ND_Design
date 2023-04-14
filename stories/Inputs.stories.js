@@ -5,7 +5,7 @@ export default {
   component: Inputs,
   tags: ['autodocs'],
   argTypes: {
-    size: { control: 'select', options: ['small', 'medium', 'large'] } 
+    size: { control: 'select', options: ['small', 'medium', 'large'] }, 
     typer: { control: 'select', options: ['outline','underline','filled-darker','filled-lighter','filled-darker-shadow','filled-lighter-shadow'] }       
   },
 };
