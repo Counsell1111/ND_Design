@@ -1,4 +1,4 @@
-import { DataGrid } from './DataGrid';
+import { Datagrid } from './DataGrid';
 
 
 export default {

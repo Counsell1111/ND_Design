@@ -160,7 +160,7 @@ import {
     }),
   ];
   
-  export const Default = () => {
+  export const Datagrid = () => {
     return (
       <DataGrid
         items={items}
