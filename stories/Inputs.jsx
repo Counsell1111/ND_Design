@@ -22,10 +22,10 @@ export const Inputs = ({ size, label, typer, ...props }) => {
     const styles = useStyles();
   return (
     <div className={styles.root}>
-    <Label size={size} htmlFor={inputId} appearance={typer}>
+    <Label size={size} htmlFor={inputId}>
     {label}
     </Label>
-    <Input size={size} placeholder={label} id={inputId} />
+    <Input size={size} placeholder={label} id={inputId} appearance={typer}/>
   </div>
    );
 };
