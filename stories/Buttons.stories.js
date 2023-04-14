@@ -19,6 +19,11 @@ export const Primary = {
     size:'medium',
     appearance: 'primary',
   },
+  parameters: {
+    docs: {
+      source: { type: 'code' },
+    },
+  }
 };
 
 export const Secondary = {

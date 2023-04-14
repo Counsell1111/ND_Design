@@ -14,9 +14,6 @@ const useStyles = makeStyles({
     flexDirection: "column",
     rowGap: "15px",
   },
-  ndbutton: {
-    background: "#000",
-  },  
 });
 
 /**
