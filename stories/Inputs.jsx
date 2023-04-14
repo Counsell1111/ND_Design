@@ -17,7 +17,7 @@ const useStyles = makeStyles({
     },
   });
 
-export const Inputs = ({ size, label, ...props }) => {
+export const Inputs = ({ size, label, typer, ...props }) => {
     const inputId = useId("input");
     const styles = useStyles();
   return (
