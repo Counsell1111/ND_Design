@@ -32,7 +32,7 @@ import {
     const styles = useStyles();
     const [open, setOpen] = React.useState(false);
     return (
-      <Dialog open='{open}' onOpenChange={(event, data) => setOpen(data.open)}>
+      <Dialog open={open} onOpenChange={(event, data) => setOpen(data.open)}>
         <DialogTrigger disableButtonEnhancement>
           <Button>Open dialog</Button>
         </DialogTrigger>
