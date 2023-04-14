@@ -5,6 +5,7 @@ import './global.css';
 
 export const Header = () => {
   return (
+<div className="content">
 <div className="head_prim">
  test
 <div className="head_right">
@@ -17,6 +18,7 @@ export const Header = () => {
 <div className="head_left">
    test
   </div>
+</div>
 </div>
    );
 };
