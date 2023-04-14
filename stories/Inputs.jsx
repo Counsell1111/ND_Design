@@ -22,7 +22,7 @@ export const Inputs = ({ size, label, ...props }) => {
     const styles = useStyles();
   return (
     <div className={styles.root}>
-    <Label size={size} htmlFor={inputId}>
+    <Label size={size} htmlFor={inputId} appearance={typer}>
     {label}
     </Label>
     <Input size={size} placeholder={label} id={inputId} />
@@ -33,8 +33,10 @@ export const Inputs = ({ size, label, ...props }) => {
 
 Input.propTypes = {
     size: PropTypes.oneOf(['small', 'medium', 'large']),
+    typer: PropTypes.oneOf(['outline','underline','filled-darker','filled-lighter','filled-darker-shadow','filled-lighter-shadow']),
   };
   
   Input.defaultProps = {
     size: 'medium',
+    typer: 'outline',
   };
