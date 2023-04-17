@@ -1,4 +1,5 @@
 import {  
+  shorthands,
   Input,
   Button,
   Persona, Menu, MenuItem,
@@ -14,16 +15,12 @@ import './global.css';
 
 
 const useStyles = makeStyles({
-  innerWrapper: {
-    columnGap: "15px",
-    display: "flex",
-  },
-  outerWrapper: {
-    columnGap: "15px",
+  root: {
     display: "flex",
     flexDirection: "column",
-    rowGap: "15px",
-  },
+    ...shorthands.gap("2px"),
+    maxWidth: "400px",
+ },
 });
 
 
@@ -40,7 +37,7 @@ const MicButton: React.FC<ButtonProps> = (props) => {
 export const Header = () => {
   const styles = useStyles();
   return (
-<Header>
+    <div className={styles.root}>
 <div className="head_prim">
 <div className="head_right">
 <div className="right_button">
@@ -92,7 +89,7 @@ export const Header = () => {
 </div>
   </div>
 </div>
-</Header>
+</div>
    );
 };
 
