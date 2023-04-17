@@ -17,6 +17,10 @@ import './global.css';
 const useStyles = makeStyles({
   root: {
     width: "100%",
+    top: "0px",
+    left: "0px",
+    right: "0px",
+    height:"63px",
     display: "flex",
     flexDirection: "column",
     ...shorthands.gap("2px"),
