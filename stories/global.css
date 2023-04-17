@@ -1,6 +1,10 @@
 .head_prim{
   height:60px;
   width:100%;
+  position:fixed;
+  top:0px;
+  left:0px;
+  right:0px;
   border-bottom: 3px solid #ebebeb;
   border-top: 1px solid #ebebeb;
   background-color:#fff;
@@ -15,7 +19,7 @@ height: 60px;
 border-left: 1px solid #ebebeb;
 display: flex;
 flex-direction: row;
-max-width: 30%;
+max-width: 50%;
 }
 
 .head_left{
