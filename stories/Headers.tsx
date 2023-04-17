@@ -4,8 +4,8 @@ import { Persona, Menu, MenuItem,
   MenuTrigger,
   SplitButton,
   MenuButtonProps, Divider } from "@fluentui/react-components";
+import { StarLineHorizontal324Regular } from "@fluentui/react-icons";
 import React from 'react';
-import { StarLineHorizontal324Regular } from `@fluentui/react-icons`;
 import './global.css';
 
 export const Header = () => {
