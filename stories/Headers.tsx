@@ -12,6 +12,7 @@ export const Header = () => {
   return (
 <div className="head_prim">
 <div className="head_right">
+<div className="right_butt">
 <Menu positioning="below-end">
         <MenuTrigger disableButtonEnhancement>
           {(triggerProps: MenuButtonProps) => (
@@ -28,7 +29,7 @@ export const Header = () => {
           </MenuList>
         </MenuPopover>
       </Menu>
-      <Divider vertical style={{ height: "100%" }} />
+      </div>
 <Persona
       name="Kevin Sturgis"
       secondaryText="Available"
