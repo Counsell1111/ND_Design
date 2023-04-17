@@ -1,12 +1,14 @@
 import {  
   Input,
+  Button,
   Persona, Menu, MenuItem,
   MenuList,
   MenuPopover,
   MenuTrigger,
   SplitButton,
+  ButtonProps,
   MenuButtonProps, makeStyles } from "@fluentui/react-components";
-import { List28Filled, Search28Filled } from "@fluentui/react-icons";
+import { ChevronDown24Regular, List28Filled, Search28Filled } from "@fluentui/react-icons";
 import React from 'react';
 import './global.css';
 
@@ -22,6 +24,17 @@ const useStyles = makeStyles({
     rowGap: "15px",
   },
 });
+
+
+const MicButton: React.FC<ButtonProps> = (props) => {
+  return (
+    <Button
+      {...props}
+      appearance="transparent"
+      icon={<ChevronDown24Regular />}
+    />
+  );
+};
 
 export const Header = () => {
   const styles = useStyles();
@@ -73,7 +86,7 @@ export const Header = () => {
 <Search28Filled />
 </div>
 <div className="Left_search">
-      <Input placeholder="Search Mhub" size="large" appearance="filled-darker"/>
+      <Input placeholder="Search Mhub" size="large" contentAfter={<MicButton aria-label="Enter by voice" />} appearance="outline"/>
 </div>
   </div>
 </div>
