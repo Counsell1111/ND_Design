@@ -6,7 +6,7 @@ import {
   MenuTrigger,
   SplitButton,
   MenuButtonProps, Divider } from "@fluentui/react-components";
-import { StarLineHorizontal324Regular, Search32Filled } from "@fluentui/react-icons";
+import { List28Filled, Search28Filled } from "@fluentui/react-icons";
 import React from 'react';
 import './global.css';
 
@@ -47,7 +47,7 @@ export const Header = () => {
   </div>
 <div className="head_left">
 <div className="left_menu">
-<StarLineHorizontal324Regular />
+<List28Filled />
 </div>
 <div className="left_logo">
 <svg width="40" height="40" viewBox="0 0 301 213" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -56,7 +56,7 @@ export const Header = () => {
 </svg>
 </div>
 <div className="search_ico">
-<Search32Filled />
+<Search28Filled />
 </div>
 <div className="Left_search">
       <Input placeholder="Search Mhub" size="large" appearance="filled-darker"/>
