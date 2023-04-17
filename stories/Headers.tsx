@@ -40,6 +40,7 @@ const MicButton: React.FC<ButtonProps> = (props) => {
 export const Header = () => {
   const styles = useStyles();
   return (
+<Header>
 <div className="head_prim">
 <div className="head_right">
 <div className="right_button">
@@ -91,6 +92,7 @@ export const Header = () => {
 </div>
   </div>
 </div>
+</Header>
    );
 };
 
