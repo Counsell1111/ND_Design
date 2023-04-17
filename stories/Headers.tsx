@@ -19,6 +19,7 @@ const useStyles = makeStyles({
     display: "flex",
   },
   outerWrapper: {
+    columnGap: "15px",
     display: "flex",
     flexDirection: "column",
     rowGap: "15px",
