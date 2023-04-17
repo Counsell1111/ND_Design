@@ -1,4 +1,4 @@
-import { makeStyles, Button } from "@fluentui/react-components";
+import { makeStyles, Button, Persona} from "@fluentui/react-components";
 import React from 'react';
 import PropTypes from 'prop-types';
 import './global.css';
@@ -12,6 +12,16 @@ export const Header = () => {
     size="medium"
     shape="circular"
    >Add New</Button>
+<Persona
+      name="Kevin Sturgis"
+      secondaryText="Available"
+      presence={{ status: "available" }}
+      avatar={{
+        image: {
+          src: "https://res-1.cdn.office.net/files/fabric-cdn-prod_20221209.001/office-ui-fabric-react-assets/persona-male.png",
+        },
+      }}
+    />
   </div>
 <div className="head_left">
 <svg width="40" height="40" viewBox="0 0 301 213" fill="none" xmlns="http://www.w3.org/2000/svg">
