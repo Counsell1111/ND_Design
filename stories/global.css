@@ -5,7 +5,7 @@
   top:0px;
   left:0px;
   right:0px;
-  border-bottom: 3px solid #000;
+  border-bottom: 3px solid #ebebeb;
   background-color:#fff;
   overflow: hidden;
 }
@@ -15,7 +15,7 @@ position: absolute;
 right:0px;
 top:0px;
 height: 60px;
-border-left: 1px solid #000;
+border-left: 1px solid #ebebeb;
 display: flex;
 flex-direction: row;
 max-width: 50%;
