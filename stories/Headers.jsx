@@ -6,7 +6,6 @@ import './global.css';
 export const Header = () => {
   return (
 <div className="head_prim">
- test
 <div className="head_right">
 <Button 
     appearance="primary"

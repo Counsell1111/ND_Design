@@ -1,27 +1,4 @@
-.storybook-button {
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 100;
-  border: 0;
-  background-color: #000;
-  background: #000;
-  border-radius: 3em;
-  cursor: pointer;
-  display: inline-block;
-  line-height: 1;
-}
-
-.content{
-  height: 1400px;
-  width: 100%;
-  position: absolute;
-  left: 0px;
-  right: 0px;
-  top:0px;
-  bottom:0px;
-}
-
 .head_prim{
-  padding:10px;
   height:60px;
   width:100%;
   position:fixed;
@@ -29,9 +6,8 @@
   left:0px;
   right:0px;
   border-bottom: 3px solid #000;
-  background-color:#ccc;
+  background-color:#fff;
   overflow: hidden;
-  margin: 0px 0px 60px 0px;
 }
 
 .head_right{
