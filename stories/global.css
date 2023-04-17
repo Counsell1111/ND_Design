@@ -15,7 +15,6 @@ position: absolute;
 right:0px;
 top:0px;
 height: 60px;
-padding: 10px;
 border-left: 1px solid #000;
 }
 
@@ -24,6 +23,29 @@ border-left: 1px solid #000;
   left:0px;
   top:0px;
   height: 60px;
+  border-right: 1px solid #000;
+}
+
+.left_menu{
+  height: 60px;
   padding: 10px;
   border-right: 1px solid #000;
 }
+
+.left_logo{
+  height: 60px;
+  padding: 20px;
+}
+
+.right_button{
+  height: 60px;
+  padding: 20px;
+  border-left: 1px solid #000;
+}
+
+.right_persona{
+  height: 60px;
+  padding: 10px;
+  border-right: 1px solid #000;
+}
+
