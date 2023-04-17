@@ -15,7 +15,7 @@ height: 60px;
 border-left: 1px solid #ebebeb;
 display: flex;
 flex-direction: row;
-max-width: 50%;
+max-width: 30%;
 }
 
 .head_left{
