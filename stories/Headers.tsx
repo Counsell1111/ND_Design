@@ -19,8 +19,18 @@ const useStyles = makeStyles({
     display: "flex",
     flexDirection: "column",
     ...shorthands.gap("2px"),
-    minWidth: "500px",
+    minWidth: "750px",
+    minHeight: "300px",
  },
+ innerWrapper: {
+  columnGap: "15px",
+  display: "flex",
+},
+outerWrapper: {
+  display: "flex",
+  flexDirection: "column",
+  rowGap: "15px",
+},
 });
 
 
