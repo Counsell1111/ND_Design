@@ -1,11 +1,8 @@
 .head_prim{
   height:60px;
   width:100%;
-  position:fixed;
-  top:0px;
-  left:0px;
-  right:0px;
   border-bottom: 3px solid #ebebeb;
+  border-top: 1px solid #ebebeb;
   background-color:#fff;
   overflow: hidden;
 }
