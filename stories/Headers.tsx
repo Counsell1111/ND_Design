@@ -1,4 +1,9 @@
-import { makeStyles, Button, Persona} from "@fluentui/react-components";
+import { Persona, Menu, MenuItem,
+  MenuList,
+  MenuPopover,
+  MenuTrigger,
+  SplitButton,
+  MenuButtonProps, Divider } from "@fluentui/react-components";
 import React from 'react';
 import PropTypes from 'prop-types';
 import './global.css';
@@ -7,11 +12,23 @@ export const Header = () => {
   return (
 <div className="head_prim">
 <div className="head_right">
-<Button 
-    appearance="primary"
-    size="medium"
-    shape="circular"
-   >Add New</Button>
+<Menu positioning="below-end">
+        <MenuTrigger disableButtonEnhancement>
+          {(triggerProps: MenuButtonProps) => (
+            <SplitButton menuButton={triggerProps} appearance="primary">
+            Add New
+            </SplitButton>
+          )}
+        </MenuTrigger>
+
+        <MenuPopover>
+          <MenuList>
+            <MenuItem>Add New</MenuItem>
+            <MenuItem>Add New</MenuItem>
+          </MenuList>
+        </MenuPopover>
+      </Menu>
+      <Divider vertical style={{ height: "100%" }} />
 <Persona
       name="Kevin Sturgis"
       secondaryText="Available"
