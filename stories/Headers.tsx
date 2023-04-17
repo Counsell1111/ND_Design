@@ -5,12 +5,26 @@ import {
   MenuPopover,
   MenuTrigger,
   SplitButton,
-  MenuButtonProps, Divider } from "@fluentui/react-components";
+  MenuButtonProps, makeStyles } from "@fluentui/react-components";
 import { List28Filled, Search28Filled } from "@fluentui/react-icons";
 import React from 'react';
 import './global.css';
 
+
+const useStyles = makeStyles({
+  innerWrapper: {
+    columnGap: "15px",
+    display: "flex",
+  },
+  outerWrapper: {
+    display: "flex",
+    flexDirection: "column",
+    rowGap: "15px",
+  },
+});
+
 export const Header = () => {
+  const styles = useStyles();
   return (
 <div className="head_prim">
 <div className="head_right">
