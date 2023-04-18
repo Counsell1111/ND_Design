@@ -5,7 +5,8 @@ export default {
   component: Dropdowns,
   tags: ['autodocs'],
   argTypes: {
-     
+    options: ['Item One', 'Item Two', 'Item Three'],
+    control: { type: 'select' },
   },
 };
 
