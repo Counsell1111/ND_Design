@@ -20,12 +20,11 @@ const useStyles = makeStyles({
     top: "0px",
     left: "0px",
     right: "0px",
-    height:"63px",
+    height:"32px",
     display: "flex",
     flexDirection: "column",
     ...shorthands.gap("2px"),
     minWidth: "750px",
-    minHeight: "300px",
  },
  innerWrapper: {
   columnGap: "15px",
