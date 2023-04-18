@@ -20,18 +20,6 @@ import PropTypes from 'prop-types';
 
 export const Dropdowns = ({ option, size, label, typer, ...props }) => {
     const dropdownId = useId("dropdown-default");
-    const options = [
-      "Cat",
-      "Caterpillar",
-      "Corgi",
-      "Chupacabra",
-      "Dog",
-      "Ferret",
-      "Fish",
-      "Fox",
-      "Hamster",
-      "Snake",
-    ];
     const styles = useStyles();
     return (
         <Dropdown
@@ -39,11 +27,9 @@ export const Dropdowns = ({ option, size, label, typer, ...props }) => {
           placeholder="Select Option"
           {...props}
         >
-          {options.map((option) => (
-            <Option key={option} disabled={option === "Ferret"}>
+            <Option key={option} disabled={option === "primary"}>
               {option}
             </Option>
-          ))}
         </Dropdown>
     );
 };
@@ -51,7 +37,7 @@ export const Dropdowns = ({ option, size, label, typer, ...props }) => {
 
 Dropdowns.propTypes = {
     size: PropTypes.oneOf(['small', 'medium', 'large']),
-    typer: PropTypes.oneOf(['primary', 'outline', 'subtle', 'transparent']),
+    option: PropTypes.oneOf(['primary', 'outline', 'subtle', 'transparent']),
   };
   
   Dropdowns.defaultProps = {
