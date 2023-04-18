@@ -18,7 +18,7 @@ import PropTypes from 'prop-types';
     },
   });
 
-export const Dropdowns = ({ size, label, typer, ...props }) => {
+export const Dropdowns = ({ option, size, label, typer, ...props }) => {
     const dropdownId = useId("dropdown-default");
     const options = [
       "Cat",
