@@ -15,7 +15,6 @@ import PropTypes from 'prop-types';
       gridTemplateRows: "repeat(1fr)",
       justifyItems: "start",
       ...shorthands.gap("2px"),
-      maxWidth: "400px",
     },
   });
 
@@ -39,7 +38,7 @@ export const Dropdowns = ({ size, label, typer, ...props }) => {
         <label id={dropdownId}>Best pet</label>
         <Dropdown
           aria-labelledby={dropdownId}
-          placeholder="Select an animal"
+          placeholder="Select Option"
           {...props}
         >
           {options.map((option) => (
