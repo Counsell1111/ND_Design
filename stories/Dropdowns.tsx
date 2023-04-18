@@ -34,8 +34,6 @@ export const Dropdowns = ({ option, size, label, typer, ...props }) => {
     ];
     const styles = useStyles();
     return (
-      <div className={styles.root}>
-        <label id={dropdownId}>Best pet</label>
         <Dropdown
           aria-labelledby={dropdownId}
           placeholder="Select Option"
@@ -47,13 +45,13 @@ export const Dropdowns = ({ option, size, label, typer, ...props }) => {
             </Option>
           ))}
         </Dropdown>
-      </div>
     );
 };
 
 
 Dropdowns.propTypes = {
-
+    size: PropTypes.oneOf(['small', 'medium', 'large']),
+    typer: PropTypes.oneOf(['primary', 'outline', 'subtle', 'transparent']),
   };
   
   Dropdowns.defaultProps = {
