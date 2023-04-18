@@ -34,6 +34,7 @@ export const Dropdowns = ({ option, size, label, typer, ...props }) => {
     ];
     const styles = useStyles();
     return (
+        <form>
         <Dropdown
           aria-labelledby={dropdownId}
           placeholder="Select Option"
@@ -45,6 +46,7 @@ export const Dropdowns = ({ option, size, label, typer, ...props }) => {
             </Option>
           ))}
         </Dropdown>
+        </form>
     );
 };
 
