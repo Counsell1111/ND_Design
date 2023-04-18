@@ -12,7 +12,8 @@ export default {
 
 export const Primary = {
     args: {
-
+        options: ['Item One', 'Item Two', 'Item Three'],
+        control: { type: 'select' },
       },
 };
 
