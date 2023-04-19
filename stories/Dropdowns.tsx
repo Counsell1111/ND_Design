@@ -38,6 +38,7 @@ export const Dropdowns = ({ option, size, label, typer, ...props }) => {
         <Dropdown
           aria-labelledby={dropdownId}
           placeholder="Select Option"
+          value={option}
           {...props}
         >
           {options.map((option) => (
@@ -54,6 +55,8 @@ export const Dropdowns = ({ option, size, label, typer, ...props }) => {
 Dropdowns.propTypes = {
     size: PropTypes.oneOf(['small', 'medium', 'large']),
     typer: PropTypes.oneOf(['primary', 'outline', 'subtle', 'transparent']),
+
+    
   };
   
   Dropdowns.defaultProps = {
