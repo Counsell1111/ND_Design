@@ -40,9 +40,9 @@ export const Dropdowns = ({ option, size, label, typer, ...props }) => {
           {...props}
         >
           {options.map((option) => (
-            <option value={option} disabled={option === "Ferret"}>
+            <Option value={option} disabled={option === "Ferret"}>
               {option}
-            </option>
+            </Option>
           ))}
         </Select>
     );
