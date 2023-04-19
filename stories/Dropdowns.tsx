@@ -37,6 +37,7 @@ export const Dropdowns = ({ option, size, label, typer, ...props }) => {
         <Dropdown
           aria-labelledby={dropdownId}
           placeholder="Select Option"
+          value={option}
           {...props}
         >
           {options.map((option) => (
