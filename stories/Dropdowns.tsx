@@ -1,5 +1,5 @@
 import {  
-    Select,
+    Dropdown,
     makeStyles,
     Option,
     shorthands,
@@ -34,17 +34,17 @@ export const Dropdowns = ({ option, size, label, typer, ...props }) => {
     ];
     const styles = useStyles();
     return (
-        <Select
+        <Dropdown
           aria-labelledby={dropdownId}
           placeholder="Select Option"
           {...props}
         >
           {options.map((option) => (
-            <Option key={option} value={option} disabled={option === "Ferret"}>
+            <Option value={option} key={option} disabled={option === "Ferret"}>
               {option}
             </Option>
           ))}
-        </Select>
+        </Dropdown>
     );
 };
 
