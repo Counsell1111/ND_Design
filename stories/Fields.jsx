@@ -1,13 +1,12 @@
 
 import {
-
     Field,
     Input,
   } from "@fluentui/react-components";
   import React from 'react';
   import PropTypes from 'prop-types';
     
-  export const Fields = ({ }) => {
+  export const Field = ({ }) => {
       return (
             <Field>
     <Input />
@@ -16,9 +15,9 @@ import {
   };
   
   
-  Fields.propTypes = {
+  Field.propTypes = {
   };
   
-  Fields.defaultProps = {
+  Field.defaultProps = {
   };
   

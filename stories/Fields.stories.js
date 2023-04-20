@@ -1,8 +1,8 @@
-import { Fields } from './Fields';
+import { Field } from './Fields';
 
 export default {
   title: 'Components/Fields',
-  component: Fields,
+  component: Field,
   tags: ['autodocs'],
   argTypes: {
  
