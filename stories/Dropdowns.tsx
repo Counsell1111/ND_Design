@@ -53,12 +53,12 @@ export const Dropdowns = ({ option, size, label, typer, ...props }) => {
 
 Dropdowns.propTypes = {
   size: PropTypes.oneOf(['small', 'medium', 'large']),
-  typer: PropTypes.oneOf(['primary', 'outline', 'subtle', 'transparent']),
+  typer: PropTypes.oneOf(['outline','underline','filled-darker','filled-lighter']),
 };
 
 Dropdowns.defaultProps = {
   size: 'medium',
-  typer: 'primary',
+  typer: 'outline',
 };
 
 

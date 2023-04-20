@@ -13,28 +13,28 @@ export default {
 export const Primary = {
     args: {
         label: 'Primary Dropdown',
-        size:'Medium',
+        size:'medium',
       },
 };
 
 export const Small = {
     args: {
         label: 'Small Dropdown',
-        size:'Small',
+        size:'small',
     },
   };
 
 export const Medium = {
     args: {
         label: 'Medium Dropdown',
-        size:'Medium',
+        size:'medium',
     },
   };
   
   export const Large = {
     args: {
         label: 'Large Dropdown',
-        size:'Large',
+        size:'large',
     },
   };
   
