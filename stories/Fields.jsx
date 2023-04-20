@@ -27,7 +27,7 @@ import {
      validationMessage={validate_text}
     {...props}
   >
-    <Input />
+    <Input appearance={typer} />
   </Field>
         </div>
       );
