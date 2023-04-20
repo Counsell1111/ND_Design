@@ -5,33 +5,36 @@ export default {
   component: Dropdowns,
   tags: ['autodocs'],
   argTypes: {
-    options: ['Item One', 'Item Two', 'Item Three'],
-    control: { type: 'select' },
+    size: { control: 'select', options: ['small', 'medium', 'large'] }, 
+    typer: { control: 'select', options: ['outline','underline','filled-darker','filled-lighter'] }   
   },
 };
 
 export const Primary = {
     args: {
-        options: ['Item One', 'Item Two', 'Item Three'],
-        control: { type: 'select' },
+        label: 'Primary Dropdown',
+        size:'Medium',
       },
 };
 
-export const Secondary = {
+export const Small = {
     args: {
+        label: 'Small Dropdown',
+        size:'Small',
+    },
+  };
 
+export const Medium = {
+    args: {
+        label: 'Medium Dropdown',
+        size:'Medium',
     },
   };
   
   export const Large = {
     args: {
-
-    },
-  };
-  
-  export const Small = {
-    args: {
-
+        label: 'Large Dropdown',
+        size:'Large',
     },
   };
   

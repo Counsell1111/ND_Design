@@ -25,22 +25,22 @@ export const Dropdowns = ({ option, size, label, typer, ...props }) => {
     const styles = useStyles();
     return (
         <div className={styles.root}>
-        <label id={dropdownId}>Best pet</label>
+        <label id={dropdownId}>{label}</label>
         <Dropdown
           aria-labelledby={dropdownId}
-          placeholder="Select an animal"
+          placeholder={label}
           appearance={typer}
           size={size}
           {...props}
         >
-          <OptionGroup label="Land">
+          <OptionGroup label={label}>
             {land.map((option) => (
               <Option key={option} disabled={option === "Ferret"}>
                 {option}
               </Option>
             ))}
           </OptionGroup>
-          <OptionGroup label="Sea">
+          <OptionGroup label={label}>
             {water.map((option) => (
               <Option key={option}>{option}</Option>
             ))}
@@ -52,15 +52,14 @@ export const Dropdowns = ({ option, size, label, typer, ...props }) => {
 
 
 Dropdowns.propTypes = {
-    size: PropTypes.oneOf(['small', 'medium', 'large']),
-    typer: PropTypes.oneOf(['primary', 'outline', 'subtle', 'transparent']),
+  size: PropTypes.oneOf(['small', 'medium', 'large']),
+  typer: PropTypes.oneOf(['primary', 'outline', 'subtle', 'transparent']),
+};
 
-    
-  };
-  
-  Dropdowns.defaultProps = {
-
-  };
+Dropdowns.defaultProps = {
+  size: 'medium',
+  typer: 'primary',
+};
 
 
  
