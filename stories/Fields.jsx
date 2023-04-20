@@ -22,7 +22,6 @@ import {
       return (
             <Field
      placeholder={label}
-     appearance={typer}
      size={size}
     {...props}
   >
@@ -33,8 +32,7 @@ import {
   
   
   Fields.propTypes = {
-    size: PropTypes.oneOf(['small', 'medium', 'large']),
-    typer: PropTypes.oneOf(['outline','underline','filled-darker','filled-lighter']),
+    size: PropTypes.oneOf(['small', 'medium', 'large'])
   };
   
   Fields.defaultProps = {
