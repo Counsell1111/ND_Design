@@ -16,7 +16,7 @@ import {
     },
   });
   
-  export const Fields = ({ option, size, label, typer, validate_state, validate_text, ...props }) => {
+  export const Fields = ({ size, label, typer, validate_state, validate_text, ...props }) => {
       const styles = useStyles();
       return (
           <div className={styles.root}>
