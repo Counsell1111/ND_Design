@@ -7,7 +7,6 @@ export default {
   argTypes: {
     size: { control: 'select', options: ['small', 'medium', 'large'] }, 
     typer: { control: 'select', options: ['outline','underline','filled-darker','filled-lighter','filled-darker-shadow','filled-lighter-shadow'] },
-    validate_state: { control: 'select', options: ['none', 'success', 'warning', 'error'] }   
   },
 };
 
@@ -15,8 +14,6 @@ export const Small = {
     args: {
         label: 'Field Placeholder',
         size: 'small',
-        validate_text: 'This is a status message',
-        validate_state: 'success',
     },
   };
 
@@ -24,8 +21,6 @@ export const Medium = {
     args: {
         label: 'Field Placeholder',
         size:'medium',
-        validate_text: 'This is a status message',
-        validate_state: 'success',
     },
   };
   
@@ -33,8 +28,6 @@ export const Medium = {
     args: {
         label: 'Field Placeholder',
         size:'large',
-        validate_text: 'This is a status message',
-        validate_state: 'success',
     },
   };
   
