@@ -6,7 +6,7 @@ import {
   import React from 'react';
   import PropTypes from 'prop-types';
     
-  export const Field = ({ }) => {
+  export const Fields = ({ }) => {
       return (
             <Field>
     <Input />
@@ -15,9 +15,9 @@ import {
   };
   
   
-  Field.propTypes = {
+  Fields.propTypes = {
   };
   
-  Field.defaultProps = {
+  Fields.defaultProps = {
   };
   
