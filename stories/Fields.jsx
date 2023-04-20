@@ -23,10 +23,7 @@ import {
           <div className={styles.root}>
             <Field
      placeholder={label}
-
      size={size}
-     validationState={validate_state}
-     validationMessage={validate_text}
     {...props}
   >
     <Input />
