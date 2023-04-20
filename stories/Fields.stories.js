@@ -16,7 +16,7 @@ export const Small = {
         label: 'Field Placeholder',
         size: 'small',
         validate_text: 'This is a status message',
-        validate_state: 'success',
+        validate_state: 'none',
     },
   };
 
@@ -25,7 +25,7 @@ export const Medium = {
         label: 'Field Placeholder',
         size:'medium',
         validate_text: 'This is a status message',
-        validate_state: 'success',
+        validate_state: 'none',
     },
   };
   
@@ -34,7 +34,34 @@ export const Medium = {
         label: 'Field Placeholder',
         size:'large',
         validate_text: 'This is a status message',
+        validate_state: 'none',
+    },
+  };
+
+  export const Success = {
+    args: {
+        label: 'Field with success',
+        size: 'medium',
+        validate_text: 'Great Success, very nice!',
         validate_state: 'success',
+    },
+  };
+
+  export const Warning = {
+    args: {
+        label: 'Field with warning',
+        size: 'medium',
+        validate_text: 'Yikes, this is a warning!',
+        validate_state: 'warning',
+    },
+  };
+
+  export const Error = {
+    args: {
+        label: 'Field with error',
+        size: 'medium',
+        validate_text: 'OMG, this field has an error!',
+        validate_state: 'error',
     },
   };
   
