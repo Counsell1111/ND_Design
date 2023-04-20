@@ -20,8 +20,7 @@ import {
   export const Fields = ({ }) => {
       const styles = useStyles();
       return (
-            <Field
-  >
+            <Field>
     <Input />
   </Field>
       );
