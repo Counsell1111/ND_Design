@@ -18,6 +18,7 @@
     "@fluentui/react": "^8.107.4",
     "@fluentui/react-components": "^9.18.9",
     "@fluentui/react-icons": "^2.0.200",
+    "@storybook/addon-console": "^1.2.3",
     "@storybook/addon-storysource": "^7.0.6",
     "@storybook/api": "^7.0.4",
     "@storybook/react": "^7.0.4",
