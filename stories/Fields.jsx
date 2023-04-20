@@ -36,13 +36,13 @@ import {
   };
   
   
-  Fields.propTypes = {
+  Field.propTypes = {
     size: PropTypes.oneOf(['small', 'medium', 'large']),
     typer: PropTypes.oneOf(['outline','underline','filled-darker','filled-lighter']),
     validate_state: PropTypes.oneOf(['none', 'success', 'warning', 'error']),
   };
   
-  Fields.defaultProps = {
+  Field.defaultProps = {
     size: 'medium',
     typer: 'outline',
     validate_state: 'success',
