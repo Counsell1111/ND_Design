@@ -17,13 +17,10 @@ import {
     },
   });
   
-  export const Fields = ({ size, label, typer, ...props }) => {
+  export const Fields = ({ }) => {
       const styles = useStyles();
       return (
             <Field
-     placeholder={label}
-     size={size}
-    {...props}
   >
     <Input />
   </Field>
@@ -32,11 +29,8 @@ import {
   
   
   Fields.propTypes = {
-    size: PropTypes.oneOf(['small', 'medium', 'large'])
   };
   
   Fields.defaultProps = {
-    size: 'medium',
-    typer: 'outline',
   };
   
