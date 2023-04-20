@@ -17,15 +17,13 @@ import {
     },
   });
   
-  export const Fields = ({ size, label, typer, validate_state, validate_text, ...props }) => {
+  export const Fields = ({ size, label, typer, ...props }) => {
       const styles = useStyles();
       return (
             <Field
      placeholder={label}
      appearance={typer}
      size={size}
-     validationState={validate_state}
-     validationMessage={validate_text}
     {...props}
   >
     <Input />
@@ -37,12 +35,10 @@ import {
   Fields.propTypes = {
     size: PropTypes.oneOf(['small', 'medium', 'large']),
     typer: PropTypes.oneOf(['outline','underline','filled-darker','filled-lighter']),
-    validate_state: PropTypes.oneOf(['none', 'success', 'warning', 'error']),
   };
   
   Fields.defaultProps = {
     size: 'medium',
     typer: 'outline',
-    validate_state: 'success',
   };
   
