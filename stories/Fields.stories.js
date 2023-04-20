@@ -16,7 +16,7 @@ export const Small = {
         label: 'Field Placeholder',
         size: 'small',
         validate_text: 'This is a status message',
-        validate_state: 'none',
+        validate_state: 'success',
     },
   };
 
@@ -25,7 +25,7 @@ export const Medium = {
         label: 'Field Placeholder',
         size:'medium',
         validate_text: 'This is a status message',
-        validate_state: 'none',
+        validate_state: 'success',
     },
   };
   
@@ -34,7 +34,7 @@ export const Medium = {
         label: 'Field Placeholder',
         size:'large',
         validate_text: 'This is a status message',
-        validate_state: 'none',
+        validate_state: 'success',
     },
   };
   
