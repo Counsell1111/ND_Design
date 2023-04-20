@@ -29,6 +29,8 @@ export const Dropdowns = ({ option, size, label, typer, ...props }) => {
         <Dropdown
           aria-labelledby={dropdownId}
           placeholder="Select an animal"
+          appearance={typer}
+          size={size}
           {...props}
         >
           <OptionGroup label="Land">
