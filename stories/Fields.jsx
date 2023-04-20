@@ -1,5 +1,6 @@
 
 import {
+    shorthands,
     Field,
     Input,
     makeStyles,
@@ -11,6 +12,7 @@ import {
     root: {
        display: "flex",
        flexDirection: "column",
+       ...shorthands.gap("2px"),
        maxWidth: "400px",
     },
   });
@@ -34,13 +36,13 @@ import {
   };
   
   
-  Dropdowns.propTypes = {
+  Fields.propTypes = {
     size: PropTypes.oneOf(['small', 'medium', 'large']),
     typer: PropTypes.oneOf(['outline','underline','filled-darker','filled-lighter']),
     validate_state: PropTypes.oneOf(['none', 'success', 'warning', 'error']),
   };
   
-  Dropdowns.defaultProps = {
+  Fields.defaultProps = {
     size: 'medium',
     typer: 'outline',
     validate_state: 'success',
