@@ -1,9 +1,9 @@
 
 import {
+    makeStyles,
     shorthands,
     Field,
     Input,
-    makeStyles,
   } from "@fluentui/react-components";
   import React from 'react';
   import PropTypes from 'prop-types';
@@ -20,7 +20,6 @@ import {
   export const Fields = ({ size, label, typer, validate_state, validate_text, ...props }) => {
       const styles = useStyles();
       return (
-          <div className={styles.root}>
             <Field
      placeholder={label}
      appearance={typer}
@@ -31,7 +30,6 @@ import {
   >
     <Input />
   </Field>
-        </div>
       );
   };
   
