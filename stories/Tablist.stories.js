@@ -9,7 +9,7 @@ export default {
     size: { control: 'inline-radio', options: ['small', 'medium', 'large'] },    
     disabled: { control: 'boolean', options: [ 'disabled', ''] },
     vertical: { control: 'boolean', options: [ 'vertical', ''] },
-    icon: { control: 'boolean', options: [ 'icon={<CalendarMonth />', ''] },
+    icon: { control: 'boolean', options: [ 'icon={<CalendarMonth />}', ''] },
   },
 };
 
@@ -70,6 +70,6 @@ export const Primary = {
       size: 'large',
       disabled: '',
       vertical:'vertical',
-      icon:'icon={<CalendarMonth />',
+      icon:'icon={<CalendarMonth />}',
     },
   };

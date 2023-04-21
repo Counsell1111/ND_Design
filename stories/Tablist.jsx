@@ -49,7 +49,7 @@ Tablist.propTypes = {
     appearance: PropTypes.oneOf(['transparent', 'subtle']),
     disabled: PropTypes.oneOf(['disabled', '']),
     vertical: PropTypes.oneOf(['vertical','']),
-    icon: PropTypes.oneOf(['icon={<CalendarMonth />','']),
+    icon: PropTypes.oneOf(['icon={<CalendarMonth />}','']),
   };
   
 Tablist.defaultProps = {
