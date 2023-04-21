@@ -5,14 +5,14 @@ export default {
   component: checkbox,
   tags: ['autodocs'],
   argTypes: {
-    size: { control: 'select', options: ['medium', 'large'] }, 
+    size: { control: 'inline-radio', options: ['medium', 'large'] }, 
     disabled: { control: 'boolean', options: [ 'disabled', ''] }    
   },
 };
 
 export const Medium = {
     args: {
-        label: 'Medium Dropdown',
+        label: 'Medium Checkbox',
         size:'medium',
         disabled: '',
     },
@@ -20,7 +20,7 @@ export const Medium = {
   
   export const Large = {
     args: {
-        label: 'Large Dropdown',
+        label: 'Large Checkbox',
         size:'large',
         disabled: '',
     },
@@ -28,7 +28,7 @@ export const Medium = {
 
   export const Disabled = {
     args: {
-        label: 'Medium Dropdown',
+        label: 'Disabled Checkbox',
         size:'medium',
         disabled: 'disabled',
     },
