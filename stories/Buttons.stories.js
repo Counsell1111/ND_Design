@@ -6,8 +6,9 @@ export default {
   component: Buttons,
   tags: ['autodocs'],
   argTypes: {
-    appearance: { control: 'select', options: ['primary', 'outline', 'subtle', 'transparent'] },
-    size: { control: 'select', options: ['small', 'medium', 'large'] }               
+    appearance: { control: 'inline-radio', options: ['primary', 'outline', 'subtle', 'transparent'] },
+    size: { control: 'inline-radio', options: ['small', 'medium', 'large'] },    
+    disabled: { control: 'boolean', options: [ 'disabled', ''] }         
   },
 };
 
@@ -17,6 +18,7 @@ export const Primary = {
     label: 'Button',
     size:'medium',
     appearance: 'primary',
+    disabled: '',
   },
 };
 
@@ -24,6 +26,7 @@ export const Secondary = {
   args: {
     size:'medium',
     label: 'Button',
+    disabled: '',
   },
 };
 
@@ -31,6 +34,7 @@ export const Large = {
   args: {
     size: 'large',
     label: 'Button',
+    disabled: '',
   },
 };
 
@@ -38,5 +42,6 @@ export const Small = {
   args: {
     size: 'small',
     label: 'Button',
+    disabled: '',
   },
 };

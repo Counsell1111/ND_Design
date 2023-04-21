@@ -19,13 +19,14 @@ const useStyles = makeStyles({
 /**
  * Primary UI component for user interaction
  */
-export const Buttons = ({ size, typer, label, ...props }) => {
+export const Buttons = ({ disabled, size, typer, label, ...props }) => {
 
   const styles = useStyles();
   return (
     <Button 
     appearance={typer}
     size={size}
+    disabled={disabled}
     {...props}
    >{label}</Button>
    );
@@ -34,9 +35,11 @@ export const Buttons = ({ size, typer, label, ...props }) => {
 Button.propTypes = {
   size: PropTypes.oneOf(['small', 'medium', 'large']),
   typer: PropTypes.oneOf(['primary', 'outline', 'subtle', 'transparent']),
+  disabled: PropTypes.oneOf([ 'disabled', '']),
 };
 
 Button.defaultProps = {
   size: 'medium',
   typer: 'primary',
+  disabled: '',
 };
