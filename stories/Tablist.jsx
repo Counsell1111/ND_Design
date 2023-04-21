@@ -17,7 +17,7 @@ const useStyles = makeStyles({
     },
   });
 
-export const Inputs = ({ }) => {
+export const Tablist = ({ }) => {
     const styles = useStyles();
   return (
     <div className={styles.root}>
@@ -32,10 +32,10 @@ export const Inputs = ({ }) => {
 };
 
 
-Input.propTypes = {
+Tablist.propTypes = {
 
   };
   
-  Input.defaultProps = {
+Tablist.defaultProps = {
 
   };
