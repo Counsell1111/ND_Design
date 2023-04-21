@@ -9,6 +9,7 @@ export default {
     size: { control: 'inline-radio', options: ['small', 'medium', 'large'] },    
     disabled: { control: 'boolean', options: [ 'disabled', ''] },
     vertical: { control: 'boolean', options: [ 'vertical', ''] },
+    icons: { control: 'boolean', options: [ 'icon={<CalendarMonth />}', ''] },
   },
 };
 
@@ -18,6 +19,7 @@ export const Primary = {
       appearance: 'subtle',
       disabled: '',
       vertical:'',
+      icons:'',
     },
   };
   
@@ -26,6 +28,7 @@ export const Primary = {
       size: 'small',
       disabled: '',
       vertical:'',
+      icons:'',
     },
   };
 
@@ -34,6 +37,7 @@ export const Primary = {
       size:'medium',
       disabled: '',
       vertical:'',
+      icons:'',
     },
   };
   
@@ -42,5 +46,33 @@ export const Primary = {
       size: 'large',
       disabled: '',
       vertical:'',
+      icons:'',
+    },
+  };
+
+  export const Disabled = {
+    args: {
+      size: 'medium',
+      disabled: 'disabled',
+      vertical:'',
+      icons:'',
+    },
+  };
+
+  export const Icons = {
+    args: {
+      size: 'medium',
+      disabled: '',
+      vertical:'',
+      icons:'',
+    },
+  };
+
+  export const Vertical = {
+    args: {
+      size: 'large',
+      disabled: '',
+      vertical:'vertical',
+      icons:'icon={<CalendarMonth />}',
     },
   };
