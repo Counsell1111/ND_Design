@@ -18,24 +18,27 @@ export const Primary = {
         size:'medium',
         color:'brand',
         shape:'circular',
+        appearance: 'filled',
       },
 };
 
 export const Tiny = {
     args: {
-        label: 'Tiny Badge',
+        label: '',
         size:'tiny',
         color:'brand',
         shape:'circular',
+        appearance: 'filled',
     },
   };
 
   export const Smaller = {
     args: {
-        label: 'Smaller Badge',
+        label: '',
         size:'extra-small',
         color:'brand',
         shape:'circular',
+        appearance: 'filled',
     },
   };
 
@@ -45,6 +48,7 @@ export const Small = {
         size:'small',
         color:'brand',
         shape:'circular',
+        appearance: 'filled',
     },
   };
   
@@ -55,6 +59,7 @@ export const Medium = {
         size:'Medium',
         color:'brand',
         shape:'circular',
+        appearance: 'filled',
     },
   };
   
@@ -64,6 +69,7 @@ export const Medium = {
         size:'large',
         color:'brand',
         shape:'circular',
+        appearance: 'filled',
     },
   };
 
@@ -73,5 +79,6 @@ export const Medium = {
         size:'extra-large',
         color:'brand',
         shape:'circular',
+        appearance: 'filled',
     },
   };
