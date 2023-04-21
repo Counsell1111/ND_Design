@@ -19,7 +19,7 @@ const useStyles = makeStyles({
 /**
  * Primary UI component for user interaction
  */
-export const Buttons = ({ disabled, size, typer, label, ...props }) => {
+export const Button = ({ disabled, size, typer, label, ...props }) => {
 
   const styles = useStyles();
   return (
