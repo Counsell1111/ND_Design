@@ -9,7 +9,7 @@ export default {
     size: { control: 'inline-radio', options: ['small', 'medium', 'large'] },    
     disabled: { control: 'boolean', options: [ 'disabled', ''] },
     vertical: { control: 'boolean', options: [ 'vertical', ''] },
-    icons: { control: 'boolean', options: [ 'icon={<CalendarMonth />}', ''] },
+    icon: { control: 'boolean', options: [ '<CalendarMonth />', ''] },
   },
 };
 
@@ -19,7 +19,7 @@ export const Primary = {
       appearance: 'subtle',
       disabled: '',
       vertical:'',
-      icons:'',
+      icon:'',
     },
   };
   
@@ -28,7 +28,7 @@ export const Primary = {
       size: 'small',
       disabled: '',
       vertical:'',
-      icons:'',
+      icon:'',
     },
   };
 
@@ -37,7 +37,7 @@ export const Primary = {
       size:'medium',
       disabled: '',
       vertical:'',
-      icons:'',
+      icon:'',
     },
   };
   
@@ -46,7 +46,7 @@ export const Primary = {
       size: 'large',
       disabled: '',
       vertical:'',
-      icons:'',
+      icon:'',
     },
   };
 
@@ -55,7 +55,7 @@ export const Primary = {
       size: 'medium',
       disabled: 'disabled',
       vertical:'',
-      icons:'',
+      icon:'',
     },
   };
 
@@ -64,7 +64,7 @@ export const Primary = {
       size: 'medium',
       disabled: '',
       vertical:'',
-      icons:'',
+      icon:'',
     },
   };
 
@@ -73,6 +73,6 @@ export const Primary = {
       size: 'large',
       disabled: '',
       vertical:'vertical',
-      icons:'icon={<CalendarMonth />}',
+      icon:'<CalendarMonth />',
     },
   };

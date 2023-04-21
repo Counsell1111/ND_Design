@@ -5,7 +5,14 @@ import {
     TabList, } from "@fluentui/react-components";
 import React from 'react';
 import PropTypes from 'prop-types';
-
+import {
+    CalendarMonthRegular,
+    CalendarMonthFilled,
+    bundleIcon,
+  } from "@fluentui/react-icons";
+  
+  const CalendarMonth = bundleIcon(CalendarMonthFilled, CalendarMonthRegular);
+  
 const useStyles = makeStyles({
     root: {
         alignItems: "flex-start",
@@ -17,7 +24,7 @@ const useStyles = makeStyles({
     },
   });
 
-export const Tablist = ({ icons, disabled, size, appearance, vertical }) => {
+export const Tablist = ({ icon, disabled, size, appearance, vertical }) => {
     const styles = useStyles();
   return (
     <div className={styles.root}>
@@ -27,10 +34,10 @@ export const Tablist = ({ icons, disabled, size, appearance, vertical }) => {
       disabled={disabled}
       vertical={vertical}
     >
-        <Tab icons={icons} value="tab1">First Tab</Tab>
-        <Tab icons={icons} value="tab2">Second Tab</Tab>
-        <Tab icons={icons} value="tab3">Third Tab</Tab>
-        <Tab icons={icons} value="tab4">Fourth Tab</Tab>
+        <Tab icon={icon} value="tab1">First Tab</Tab>
+        <Tab icon={icon} value="tab2">Second Tab</Tab>
+        <Tab icon={icon} value="tab3">Third Tab</Tab>
+        <Tab icon={icon} value="tab4">Fourth Tab</Tab>
       </TabList>
     </div>
    );
@@ -42,7 +49,7 @@ Tablist.propTypes = {
     appearance: PropTypes.oneOf(['transparent', 'subtle']),
     disabled: PropTypes.oneOf(['disabled', '']),
     vertical: PropTypes.oneOf(['vertical','']),
-    icons: PropTypes.oneOf(['icon={<CalendarMonth />}','']),
+    icon: PropTypes.oneOf(['<CalendarMonth />','']),
   };
   
 Tablist.defaultProps = {
@@ -50,5 +57,5 @@ Tablist.defaultProps = {
     appearance: 'subtle',
     disabled: '',
     vertical: '',
-    icons: '',
+    icon: '',
   };
