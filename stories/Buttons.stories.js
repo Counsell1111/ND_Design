@@ -26,7 +26,7 @@ export const Primary = {
 export const Small = {
   args: {
     size: 'small',
-    label: 'Button',
+    label: 'Small Button',
     disabled: '',
   },
 };
@@ -34,7 +34,7 @@ export const Small = {
 export const Medium = {
   args: {
     size:'medium',
-    label: 'Button',
+    label: 'Medium Button',
     disabled: '',
   },
 };
@@ -42,7 +42,15 @@ export const Medium = {
 export const Large = {
   args: {
     size: 'large',
-    label: 'Button',
+    label: 'Large Button',
     disabled: '',
+  },
+};
+
+export const Disabled = {
+  args: {
+    size: 'large',
+    label: 'Disabled Button',
+    disabled: 'disabled',
   },
 };
