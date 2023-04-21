@@ -1,8 +1,8 @@
-import { field } from './Field';
+import { fields } from './Field';
 
 export default {
   title: 'Patterns/Field',
-  component: field,
+  component: fields,
   tags: ['autodocs'],
   argTypes: {
     size: { control: 'select', options: ['small', 'medium', 'large'] }, 
