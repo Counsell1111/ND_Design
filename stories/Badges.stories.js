@@ -18,7 +18,7 @@ export const Primary = {
         size:'medium',
         color:'brand',
         shape:'circular',
-        appearance: 'filled',
+        appearance: 'tint',
       },
 };
 
@@ -48,7 +48,7 @@ export const Small = {
         size:'small',
         color:'brand',
         shape:'circular',
-        appearance: 'filled',
+        appearance: 'tint',
     },
   };
   
@@ -59,7 +59,7 @@ export const Medium = {
         size:'Medium',
         color:'brand',
         shape:'circular',
-        appearance: 'filled',
+        appearance: 'tint',
     },
   };
   
@@ -69,7 +69,7 @@ export const Medium = {
         size:'large',
         color:'brand',
         shape:'circular',
-        appearance: 'filled',
+        appearance: 'tint',
     },
   };
 
@@ -79,6 +79,6 @@ export const Medium = {
         size:'extra-large',
         color:'brand',
         shape:'circular',
-        appearance: 'filled',
+        appearance: 'tint',
     },
   };
