@@ -6,7 +6,6 @@ export default {
   component: Buttons,
   tags: ['autodocs'],
   argTypes: {
-    backgroundColor: { control: 'color' },
     appearance: { control: 'select', options: ['primary', 'outline', 'subtle', 'transparent'] },
     size: { control: 'select', options: ['small', 'medium', 'large'] }               
   },
