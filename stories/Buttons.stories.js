@@ -1,9 +1,9 @@
-import { Button } from './Buttons';
+import { button } from './Buttons';
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 export default {
   title: 'Patterns/Buttons',
-  component: Button,
+  component: button,
   tags: ['autodocs'],
   argTypes: {
     appearance: { control: 'inline-radio', options: ['primary', 'outline', 'subtle', 'transparent'] },

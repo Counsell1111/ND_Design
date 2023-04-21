@@ -1,8 +1,8 @@
-import { Spinners } from './Spinners';
+import { spinner } from './Spinners';
 
 export default {
   title: 'Patterns/Spinner',
-  component: Spinner,
+  component: spinner,
   tags: ['autodocs'],
   argTypes: {
     size: { control: 'select', options: ['small','tiny','extra-small','medium','large','extra-large','huge'] }, 
