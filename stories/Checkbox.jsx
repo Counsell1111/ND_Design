@@ -15,11 +15,14 @@ const useStyles = makeStyles({
     },
   });
 
-export const checkbox = ({ size, ...props }) => {
+export const checkbox = ({ label, size, ...props }) => {
     const styles = useStyles();
   return (
     <div className={styles.root}>
-     <Checkbox {...props} />
+     <Checkbox 
+     size={size}
+     label={label}
+     {...props} />
   </div>
    );
 };

@@ -6,7 +6,6 @@ export default {
   tags: ['autodocs'],
   argTypes: {
     size: { control: 'select', options: ['small', 'medium', 'large'] }, 
-    typer: { control: 'select', options: ['outline','underline','filled-darker','filled-lighter'] }   
   },
 };
 

@@ -26,24 +26,17 @@ export const Buttons = ({ size, typer, label, ...props }) => {
     <Button 
     appearance={typer}
     size={size}
-    shape="circular"
     {...props}
    >{label}</Button>
    );
 };
 
 Button.propTypes = {
-  primary: PropTypes.bool,
-  backgroundColor: PropTypes.string,
   size: PropTypes.oneOf(['small', 'medium', 'large']),
   typer: PropTypes.oneOf(['primary', 'outline', 'subtle', 'transparent']),
-  label: PropTypes.string.isRequired,
-  onClick: PropTypes.func,
 };
 
 Button.defaultProps = {
-  backgroundColor: null,
-  primary: false,
   size: 'medium',
-  onClick: undefined,
+  typer: 'primary',
 };
