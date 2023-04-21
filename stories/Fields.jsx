@@ -6,11 +6,9 @@ import {
   import * as React from "react";
   import PropTypes from 'prop-types';
   
-  export const field = ({ size, label, validate_state, validate_text, ...props }) => {
-      const styles = useStyles();
+  export const field = ({}) => {
       return (
-            <Field
-  >
+            <Field>
     <Input />
   </Field>
       );
@@ -18,12 +16,10 @@ import {
   
   
  field.propTypes = {
-    size: PropTypes.oneOf(['small', 'medium', 'large']),
-    validate_state: PropTypes.oneOf(['none', 'success', 'warning', 'error']),
+
   };
   
   field.defaultProps = {
-    size: 'medium',
-    validate_state: 'success',
+
   };
   
