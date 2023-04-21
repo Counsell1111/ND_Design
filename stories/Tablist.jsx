@@ -12,7 +12,7 @@ import {
   } from "@fluentui/react-icons";
   
   const CalendarMonth = bundleIcon(CalendarMonthFilled, CalendarMonthRegular);
-  
+
 const useStyles = makeStyles({
     root: {
         alignItems: "flex-start",
@@ -31,13 +31,13 @@ export const Tablist = ({ icon, disabled, size, appearance, vertical }) => {
       <TabList defaultSelectedValue="tab2"
       appearance={appearance}
       size={size}
-      disabled={disabled}
-      vertical={vertical}
+      {...{disabled}}
+      {...{vertical}}
     >
-        <Tab icon={icon} value="tab1">First Tab</Tab>
-        <Tab icon={icon} value="tab2">Second Tab</Tab>
-        <Tab icon={icon} value="tab3">Third Tab</Tab>
-        <Tab icon={icon} value="tab4">Fourth Tab</Tab>
+        <Tab {...{icon}} value="tab1">First Tab</Tab>
+        <Tab {...{icon}} value="tab2">Second Tab</Tab>
+        <Tab {...{icon}} value="tab3">Third Tab</Tab>
+        <Tab {...{icon}} value="tab4">Fourth Tab</Tab>
       </TabList>
     </div>
    );
@@ -49,7 +49,7 @@ Tablist.propTypes = {
     appearance: PropTypes.oneOf(['transparent', 'subtle']),
     disabled: PropTypes.oneOf(['disabled', '']),
     vertical: PropTypes.oneOf(['vertical','']),
-    icon: PropTypes.oneOf(['<CalendarMonth />','']),
+    icon: PropTypes.oneOf(['icon={<CalendarMonth />','']),
   };
   
 Tablist.defaultProps = {
