@@ -1,8 +1,8 @@
-import { Inputs } from './Inputs';
+import { Spinner } from './Spinner';
 
 export default {
-  title: 'Patterns/Inputs',
-  component: Inputs,
+  title: 'Patterns/Spinner',
+  component: Spinner,
   tags: ['autodocs'],
   argTypes: {
     size: { control: 'select', options: ['small','tiny','extra-small','medium','large','extra-large','huge'] }, 
@@ -15,27 +15,63 @@ export const Primary = {
     args: {
         label: 'Loading',
         size:'medium',
+        labelPosition:'after',
       },
 };
 
-export const Secondary = {
+export const Tiny = {
     args: {
-      label: 'Loading',
+      label: 'Loading Tiny',
+      size: 'tiny',
+      labelPosition:'after',
+    },
+  };
+
+  export const Smaller = {
+    args: {
+      label: 'Loading Extra Small',
+      size: 'extra-small',
+      labelPosition:'after',
+    },
+  };
+
+export const Small = {
+    args: {
+      label: 'Loading Small',
+      size: 'small',
+      labelPosition:'below',
+    },
+  };
+  
+
+export const Medium = {
+    args: {
+      label: 'Loading Medium',
       size:'medium',
+      labelPosition:'below',
     },
   };
   
   export const Large = {
     args: {
-      label: 'Loading',
+      label: 'Loading Large',
       size: 'large',
+      labelPosition:'below',
     },
   };
-  
-  export const Small = {
+
+  export const Extra = {
     args: {
-      label: 'Loading',
-      size: 'small',
+      label: 'Loading Extra Large',
+      size: 'extra-large',
+      labelPosition:'below',
     },
   };
-  
+
+  export const Huge = {
+    args: {
+      label: 'Loading huge',
+      size: 'huge',
+      labelPosition:'below',
+    },
+  };
