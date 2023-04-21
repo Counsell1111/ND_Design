@@ -55,7 +55,4 @@ Tablist.propTypes = {
 Tablist.defaultProps = {
     size: 'medium',
     appearance: 'subtle',
-    disabled: '',
-    vertical: '',
-    icon: '',
   };

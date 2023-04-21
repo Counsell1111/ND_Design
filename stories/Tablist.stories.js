@@ -17,9 +17,6 @@ export const Primary = {
     args: {
       size:'medium',
       appearance: 'subtle',
-      disabled: '',
-      vertical:'',
-      icon:'',
     },
   };
   
