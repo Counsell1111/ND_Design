@@ -1,4 +1,4 @@
-import { Spinner } from './Spinner';
+import { Spinners } from './Spinners';
 
 export default {
   title: 'Patterns/Spinner',
