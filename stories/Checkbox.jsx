@@ -1,8 +1,7 @@
 import {  
     shorthands,
     makeStyles,
-    Checkbox, 
-    CheckboxProps } from "@fluentui/react-components";
+    Checkbox } from "@fluentui/react-components";
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -15,14 +14,14 @@ const useStyles = makeStyles({
     },
   });
 
-export const checkbox = ({ label, size, ...props }) => {
+export const checkbox = ({ disabled, label, size }) => {
     const styles = useStyles();
   return (
     <div className={styles.root}>
      <Checkbox 
      size={size}
      label={label}
-     {...props} />
+     {...{disabled}} />
   </div>
    );
 };
@@ -30,8 +29,10 @@ export const checkbox = ({ label, size, ...props }) => {
 
 checkbox.propTypes = {
     size: PropTypes.oneOf(['medium', 'large']),
+    disabled: PropTypes.oneOf([ 'disabled', '']),
   };
   
   checkbox.defaultProps = {
     size: 'medium',
+    disabled: '',
   };
