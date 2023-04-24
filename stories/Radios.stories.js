@@ -18,7 +18,7 @@ export const Primary = {
     size:'medium',
     layout:'horizontal',
     disabled: '',
-    required: 'required',
+    required: '',
   },
 };
 

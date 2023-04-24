@@ -42,5 +42,5 @@ radiogroup.defaultProps = {
   size: 'medium',
   layout: 'horizontal',
   disabled: '',
-  required: 'required',
+  required: '',
 };
