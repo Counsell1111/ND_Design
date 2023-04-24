@@ -21,10 +21,10 @@ export const menubutton = ({ disabled, size, appearance, label }) => {
 
    <MenuPopover>
      <MenuList>
-       <MenuItem>Item a</MenuItem>
-       <MenuItem>Item b</MenuItem>
-       <MenuItem>Item c</MenuItem>
-       <MenuItem>Item d</MenuItem>
+       <MenuItem>Option One</MenuItem>
+       <MenuItem>Option Two</MenuItem>
+       <MenuItem>Option Three</MenuItem>
+       <MenuItem>Option Four</MenuItem>
      </MenuList>
    </MenuPopover>
  </Menu>

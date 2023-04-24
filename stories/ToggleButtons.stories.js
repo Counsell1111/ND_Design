@@ -1,8 +1,8 @@
-import { menubutton } from './MenuButtons';
+import { togglebutton } from './ToggleButtons';
 
 export default {
-  title: 'Patterns/Buttons/MenuButton',
-  component: menubutton,
+  title: 'Patterns/Buttons/ToggleButton',
+  component: togglebutton,
   tags: ['autodocs'],
   argTypes: {
     appearance: { control: 'inline-radio', options: ['', 'primary', 'outline', 'subtle', 'transparent'] },
@@ -21,14 +21,13 @@ export const Default = {
 };
 
 export const Primary = {
-    args: {
-      label: 'Primary Button',
-      size:'medium',
-      appearance: 'primary',
-      disabled: '',
-    },
-  };
-
+  args: {
+    label: 'Primary Button',
+    size:'medium',
+    appearance: 'primary',
+    disabled: '',
+  },
+};
 
 export const Small = {
   args: {

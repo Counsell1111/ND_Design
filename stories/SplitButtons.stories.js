@@ -13,7 +13,7 @@ export default {
 
 export const Default = {
   args: {
-    label: 'Button',
+    label: 'Default Button',
     size:'medium',
     appearance: '',
     disabled: '',
@@ -22,7 +22,7 @@ export const Default = {
 
 export const Primary = {
     args: {
-      label: 'Button',
+      label: 'Primary Button',
       size:'medium',
       appearance: 'primary',
       disabled: '',
