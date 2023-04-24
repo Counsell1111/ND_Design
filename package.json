@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@fluentui/react": "^8.108.1",
-    "@fluentui/react-components": "^9.18.9",
+    "@fluentui/react-components": "^9.19.1",
     "@fluentui/react-icons": "^2.0.200",
     "@storybook/addon-console": "^1.2.3",
     "@storybook/addon-storysource": "^7.0.6",
