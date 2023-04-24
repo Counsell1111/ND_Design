@@ -3,8 +3,7 @@ import {
     makeStyles,
     Radio,
     RadioGroup,
-    tokens,
-    useId, } from "@fluentui/react-components";
+    tokens } from "@fluentui/react-components";
 import React from 'react';
 import PropTypes from 'prop-types';
 import './global.css';
@@ -17,13 +16,12 @@ const useStyles = makeStyles({
     },
   });
 
-export const radiogroup = ({ disabled, label }) => {
+export const radiogroup = ({ size, disabled, label }) => {
     const styles = useStyles();
-    const labelId = useId("label");
   return (
     <div className={styles.field}>
- <Label size={size} id={labelId}>{label}</Label>
-   <RadioGroup defaultValue="Option Two" {...{disabled}} aria-labelledby={labelId}>
+ <Label size={size}>{label}</Label>
+   <RadioGroup defaultValue="Option Two" {...{disabled}} layout={layout}>
      <Radio value="Option One" label="Option One" />
      <Radio value="Option Two" label="Option Two" />
      <Radio value="Option Three" label="Option Three" disabled />
@@ -34,9 +32,13 @@ export const radiogroup = ({ disabled, label }) => {
 };
 
 radiogroup.propTypes = {
-  disabled: PropTypes.oneOf([ 'disabled', '']),
+  size: PropTypes.oneOf(['small', 'medium', 'large']),
+  layout: PropTypes.oneOf(['horizontal','vertical','horizontal-stacked']),
+  disabled: PropTypes.oneOf([ 'disabled', ''])
 };
 
 radiogroup.defaultProps = {
+  size: 'medium',
+  layout: 'horizontal',
   disabled: '',
 };
