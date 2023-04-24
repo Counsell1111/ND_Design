@@ -16,10 +16,7 @@ const useStyles = makeStyles({
   },
 });
 
-/**
- * Primary UI component for user interaction
- */
-export const button = ({ disabled, size, appearance, label, ...props }) => {
+export const button = ({ disabled, size, appearance, label }) => {
 
   const styles = useStyles();
   return (
@@ -27,7 +24,6 @@ export const button = ({ disabled, size, appearance, label, ...props }) => {
     appearance={appearance}
     size={size}
     {...{disabled}}
-    {...props}
    >{label}</Button>
    );
 };
