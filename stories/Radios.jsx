@@ -20,8 +20,8 @@ export const radiogroup = ({ size, layout, disabled, required, label }) => {
     const styles = useStyles();
   return (
     <div className={styles.field}>
- <Label size={size}>{label}</Label>
-   <RadioGroup defaultValue="Option Two" {...{disabled}}{...{required}} layout={layout}>
+ <Label size={size} {...{required}}>{label}</Label>
+   <RadioGroup defaultValue="Option One" {...{disabled}}{...{required}} layout={layout}>
      <Radio value="Option One" label="Option One" />
      <Radio value="Option Two" label="Option Two" />
      <Radio value="Option Three" label="Option Three" disabled />
