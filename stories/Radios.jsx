@@ -16,12 +16,12 @@ const useStyles = makeStyles({
     },
   });
 
-export const radiogroup = ({ size, layout, disabled, label }) => {
+export const radiogroup = ({ size, layout, disabled, required, label }) => {
     const styles = useStyles();
   return (
     <div className={styles.field}>
  <Label size={size}>{label}</Label>
-   <RadioGroup defaultValue="Option Two" {...{disabled}} layout={layout}>
+   <RadioGroup defaultValue="Option Two" {...{disabled}}{...{required}} layout={layout}>
      <Radio value="Option One" label="Option One" />
      <Radio value="Option Two" label="Option Two" />
      <Radio value="Option Three" label="Option Three" disabled />
@@ -34,11 +34,13 @@ export const radiogroup = ({ size, layout, disabled, label }) => {
 radiogroup.propTypes = {
   size: PropTypes.oneOf(['small', 'medium', 'large']),
   layout: PropTypes.oneOf(['horizontal','vertical','horizontal-stacked']),
-  disabled: PropTypes.oneOf([ 'disabled', ''])
+  disabled: PropTypes.oneOf([ 'disabled', '']),
+  required: PropTypes.oneOf(['required', ''])
 };
 
 radiogroup.defaultProps = {
   size: 'medium',
   layout: 'horizontal',
   disabled: '',
+  required: 'required',
 };
