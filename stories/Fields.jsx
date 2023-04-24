@@ -17,7 +17,7 @@ import {
     },
   });
   
-  export const fields = ({ disabled, required, placeholder, size, label, validate_state, validate_text, ...props }) => {
+  export const fields = ({ disabled, required, placeholder, size, label, validate_state, validate_text }) => {
       const styles = useStyles();
       return (
           <div className={styles.root}>
@@ -27,7 +27,6 @@ import {
      validationState={validate_state}
      validationMessage={validate_text}
      {...{required}}
-    {...props}
   >
     <Input 
           placeholder={label}
@@ -49,8 +48,8 @@ import {
   
   fields.defaultProps = {
     size: 'medium',
-    validate_state: 'success',
+    validate_state: 'none',
     disabled: '',
-    required: '',
+    required: 'required',
   };
   
