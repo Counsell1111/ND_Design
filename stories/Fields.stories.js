@@ -77,4 +77,15 @@ export const Medium = {
         required: '',
     },
   };
+
+  export const Disabled = {
+    args: {
+        label: 'Disabled field',
+        size: 'medium',
+        validate_text: 'This field is disabled',
+        validate_state: 'none',
+        disabled: 'disabled',
+        required: '',
+    },
+  };
   

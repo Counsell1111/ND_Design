@@ -23,15 +23,17 @@ import {
           <div className={styles.root}>
             <Field
      label={label}
-     placeholder={label}
      size={size}
      validationState={validate_state}
      validationMessage={validate_text}
-     {...{disabled}}
      {...{required}}
     {...props}
   >
-    <Input />
+    <Input 
+          placeholder={label}
+          size={size}
+         {...{disabled}}
+         />
   </Field>
         </div>
       );
