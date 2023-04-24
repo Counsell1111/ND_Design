@@ -6,7 +6,8 @@ export default {
   tags: ['autodocs'],
   argTypes: {
     size: { control: 'inline-radio', options: ['medium', 'large'] }, 
-    disabled: { control: 'boolean', options: [ 'disabled', ''] }    
+    labelPosition: { control: 'inline-radio', options: ['before', 'after'] },
+    disabled: { control: 'boolean', options: [ 'disabled', ''] }
   },
 };
 
@@ -14,6 +15,7 @@ export const Medium = {
     args: {
         label: 'Medium Checkbox',
         size:'medium',
+        labelPosition:'after',
         disabled: '',
     },
   };
@@ -22,6 +24,7 @@ export const Medium = {
     args: {
         label: 'Large Checkbox',
         size:'large',
+        labelPosition:'after',
         disabled: '',
     },
   };
@@ -30,7 +33,18 @@ export const Medium = {
     args: {
         label: 'Disabled Checkbox',
         size:'medium',
+        labelPosition:'after',
         disabled: 'disabled',
     },
   };
+
+  export const Before = {
+    args: {
+        label: 'Label Before Checkbox',
+        size:'medium',
+        labelPosition:'before',
+        disabled: '',
+    },
+  };
+  
   

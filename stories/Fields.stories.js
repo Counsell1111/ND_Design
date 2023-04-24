@@ -12,9 +12,20 @@ export default {
   },
 };
 
+export const Primary = {
+  args: {
+      label: 'Field Placeholder',
+      size:'medium',
+      validate_text: 'This is a status message',
+      validate_state: 'none',
+      disabled: '',
+      required: '',
+  },
+};
+
 export const Small = {
     args: {
-        label: 'Field Placeholder',
+        label: 'Small Field',
         size:'small',
         validate_text: 'This is a status message',
         validate_state: 'none',
@@ -25,7 +36,7 @@ export const Small = {
 
 export const Medium = {
     args: {
-        label: 'Field Placeholder',
+        label: 'Medium Field',
         size:'medium',
         validate_text: 'This is a status message',
         validate_state: 'none',
@@ -36,7 +47,7 @@ export const Medium = {
   
   export const Large = {
     args: {
-        label: 'Field Placeholder',
+        label: 'Large Field',
         size:'large',
         validate_text: 'This is a status message',
         validate_state: 'none',

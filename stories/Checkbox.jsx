@@ -14,11 +14,12 @@ const useStyles = makeStyles({
     },
   });
 
-export const checkbox = ({ disabled, label, size }) => {
+export const checkbox = ({ labelPosition, disabled, label, size }) => {
     const styles = useStyles();
   return (
     <div className={styles.root}>
      <Checkbox 
+     labelPosition={labelPosition}
      size={size}
      label={label}
      {...{disabled}} />
@@ -29,10 +30,12 @@ export const checkbox = ({ disabled, label, size }) => {
 
 checkbox.propTypes = {
     size: PropTypes.oneOf(['medium', 'large']),
+    labelPosition: PropTypes.oneOf(['before','after']),
     disabled: PropTypes.oneOf([ 'disabled', '']),
   };
   
   checkbox.defaultProps = {
     size: 'medium',
+    labelPosition: 'after',
     disabled: '',
   };

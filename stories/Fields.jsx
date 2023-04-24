@@ -50,6 +50,6 @@ import {
     size: 'medium',
     validate_state: 'none',
     disabled: '',
-    required: 'required',
+    required: '',
   };
   
