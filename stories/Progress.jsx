@@ -16,14 +16,15 @@ const useStyles = makeStyles({
     },
   });
 
-export const Progress = ({  }) => {
+export const Progress = ({ size, validate_state, validate_text }) => {
 
     const styles = useStyles();
   return (
-    <Field validationMessage="Medium ProgressBar" validationState="none">
+    <Field validationMessage={validate_text} validationState={validate_state}>
     <ProgressBar
       className={styles.container}
-      thickness="medium"
+      thickness={size}
+      color={validate_state}
       value={0.7}
     />
   </Field>
@@ -32,9 +33,11 @@ export const Progress = ({  }) => {
 
 
 Progress.propTypes = {
-
+    size: PropTypes.oneOf(['medium', 'large']),
+    validate_state: PropTypes.oneOf(['none', 'success', 'warning', 'error']),
   };
   
 Progress.defaultProps = {
-
+    size: 'medium',
+    validate_state: 'none',
   };

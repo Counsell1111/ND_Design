@@ -5,8 +5,8 @@ export default {
   component: fields,
   tags: ['autodocs'],
   argTypes: {
-    size: { control: 'select', options: ['small', 'medium', 'large'] }, 
-    validate_state: { control: 'select', options: ['none', 'success', 'warning', 'error'] },   
+    size: { control: 'inline-radio', options: ['small', 'medium', 'large'] }, 
+    validate_state: { control: 'inline-radio', options: ['none', 'success', 'warning', 'error'] },   
     disabled: { control: 'boolean', options: [ 'disabled', ''] },   
     required: { control: 'boolean', options: [ 'required', ''] }   
   },
