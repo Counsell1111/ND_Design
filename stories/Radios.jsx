@@ -16,7 +16,7 @@ const useStyles = makeStyles({
     },
   });
 
-export const radiogroup = ({ size, disabled, label }) => {
+export const radiogroup = ({ size, layout, disabled, label }) => {
     const styles = useStyles();
   return (
     <div className={styles.field}>
