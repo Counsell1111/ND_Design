@@ -17,7 +17,7 @@ import PropTypes from 'prop-types';
     },
   });
 
-export const Dropdowns = ({ option, size, label, appearance}) => {
+export const Dropdowns = ({ option, size, label, appearance, disabled}) => {
     const dropdownId = useId("dropdown-grouped");
     const opt = ["Option One", "Option Two", "Option Three", "Option Four"];
     const styles = useStyles();
