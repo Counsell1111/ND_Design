@@ -1,8 +1,8 @@
-import { Radiogroup } from './Radios';
+import { radiogroup } from './Radios';
 
 export default {
   title: 'Patterns/Radios',
-  component: RadioGroup,
+  component: radiogroup,
   tags: ['autodocs'],
   argTypes: {
     disabled: { control: 'boolean', options: [ 'disabled', ''] }         

@@ -17,7 +17,7 @@ const useStyles = makeStyles({
     },
   });
 
-export const Radiogroup = ({ disabled, label }) => {
+export const radiogroup = ({ disabled, label }) => {
     const styles = useStyles();
     const labelId = useId("label");
   return (
@@ -33,10 +33,10 @@ export const Radiogroup = ({ disabled, label }) => {
    );
 };
 
-Radiogroup.propTypes = {
+radiogroup.propTypes = {
   disabled: PropTypes.oneOf([ 'disabled', '']),
 };
 
-Radiogroup.defaultProps = {
+radiogroup.defaultProps = {
   disabled: '',
 };
