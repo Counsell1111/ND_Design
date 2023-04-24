@@ -6,8 +6,9 @@ export default {
   tags: ['autodocs'],
   argTypes: {
     size: { control: 'select', options: ['small', 'medium', 'large'] }, 
-    typer: { control: 'select', options: ['outline','underline','filled-darker','filled-lighter','filled-darker-shadow','filled-lighter-shadow'] },
-    validate_state: { control: 'select', options: ['none', 'success', 'warning', 'error'] }   
+    validate_state: { control: 'select', options: ['none', 'success', 'warning', 'error'] },   
+    disabled: { control: 'boolean', options: [ 'disabled', ''] },   
+    required: { control: 'boolean', options: [ 'required', ''] }   
   },
 };
 
@@ -17,6 +18,8 @@ export const Small = {
         size:'small',
         validate_text: 'This is a status message',
         validate_state: 'none',
+        disabled: '',
+        required: '',
     },
   };
 
@@ -26,6 +29,8 @@ export const Medium = {
         size:'medium',
         validate_text: 'This is a status message',
         validate_state: 'none',
+        disabled: '',
+        required: '',
     },
   };
   
@@ -35,6 +40,8 @@ export const Medium = {
         size:'large',
         validate_text: 'This is a status message',
         validate_state: 'none',
+        disabled: '',
+        required: '',
     },
   };
 
@@ -44,6 +51,8 @@ export const Medium = {
         size: 'medium',
         validate_text: 'Great Success, very nice!',
         validate_state: 'success',
+        disabled: '',
+        required: '',
     },
   };
 
@@ -53,6 +62,8 @@ export const Medium = {
         size: 'medium',
         validate_text: 'Yikes, this is a warning!',
         validate_state: 'warning',
+        disabled: '',
+        required: '',
     },
   };
 
@@ -61,7 +72,9 @@ export const Medium = {
         label: 'Field with error',
         size: 'medium',
         validate_text: 'OMG, this field has an error!',
-        validate_state: 'warning',
+        validate_state: 'error',
+        disabled: '',
+        required: '',
     },
   };
   
