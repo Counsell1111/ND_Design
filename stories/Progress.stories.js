@@ -5,9 +5,9 @@ export default {
   component: Progress,
   tags: ['autodocs'],
   argTypes: { 
-    value: { control: { type: 'number', min: 0.1, max: 1 } },
-    size: { control: 'select', options: ['medium', 'large'] }, 
-    validate_state: { control: 'select', options: ['none', 'success', 'warning', 'error'] },   
+    value: { control: { type: 'number', min: 0.0, max: 1.0 } },
+    size: { control: 'inline-radio', options: ['medium', 'large'] }, 
+    validate_state: { control: 'inline-radio', options: ['none', 'success', 'warning', 'error'] },   
   },
 };
 
