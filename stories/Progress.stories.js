@@ -1,5 +1,4 @@
 import { Progress } from './Progress';
-import { number, text } from '@storybook/addon-knobs';
 
 export default {
   title: 'Patterns/Progress',

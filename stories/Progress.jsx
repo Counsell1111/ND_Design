@@ -40,4 +40,5 @@ Progress.propTypes = {
 Progress.defaultProps = {
     size: 'medium',
     validate_state: 'none',
+    value:'0.5',
   };
