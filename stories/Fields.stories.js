@@ -19,7 +19,7 @@ export const Small = {
         validate_text: 'This is a status message',
         validate_state: 'none',
         disabled: '',
-        required: 'required',
+        required: '',
     },
   };
 
@@ -30,7 +30,7 @@ export const Medium = {
         validate_text: 'This is a status message',
         validate_state: 'none',
         disabled: '',
-        required: 'required',
+        required: '',
     },
   };
   
@@ -41,7 +41,7 @@ export const Medium = {
         validate_text: 'This is a status message',
         validate_state: 'none',
         disabled: '',
-        required: 'required',
+        required: '',
     },
   };
 
