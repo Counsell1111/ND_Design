@@ -27,7 +27,7 @@ export const Small = {
   },
 };
 
-export const Secondary = {
+export const Medium = {
     args: {
       label: 'Medium Input',
       size:'medium',
