@@ -22,7 +22,8 @@ export const checkbox = ({ labelPosition, disabled, label, size }) => {
      labelPosition={labelPosition}
      size={size}
      label={label}
-     {...{disabled}} />
+     {...{disabled}}
+     {...{required}}/>
   </div>
    );
 };
@@ -32,10 +33,12 @@ checkbox.propTypes = {
     size: PropTypes.oneOf(['medium', 'large']),
     labelPosition: PropTypes.oneOf(['before','after']),
     disabled: PropTypes.oneOf([ 'disabled', '']),
+    required: PropTypes.oneOf(['required', '']),
   };
   
   checkbox.defaultProps = {
     size: 'medium',
     labelPosition: 'after',
     disabled: '',
+    required: '',
   };

@@ -7,7 +7,8 @@ export default {
   argTypes: {
     size: { control: 'inline-radio', options: ['medium', 'large'] }, 
     labelPosition: { control: 'inline-radio', options: ['before', 'after'] },
-    disabled: { control: 'boolean', options: [ 'disabled', ''] }
+    disabled: { control: 'boolean', options: [ 'disabled', ''] },
+    required: { control: 'boolean', options: [ 'required', ''] }  
   },
 };
 
@@ -17,6 +18,7 @@ export const Medium = {
         size:'medium',
         labelPosition:'after',
         disabled: '',
+        required: '',
     },
   };
   
@@ -26,6 +28,7 @@ export const Medium = {
         size:'large',
         labelPosition:'after',
         disabled: '',
+        required: '',
     },
   };
 
@@ -35,6 +38,7 @@ export const Medium = {
         size:'medium',
         labelPosition:'after',
         disabled: 'disabled',
+        required: '',
     },
   };
 
@@ -44,6 +48,7 @@ export const Medium = {
         size:'medium',
         labelPosition:'before',
         disabled: '',
+        required: '',
     },
   };
   
