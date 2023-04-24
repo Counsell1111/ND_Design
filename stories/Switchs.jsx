@@ -35,5 +35,5 @@ switchs.defaultProps = {
   labelPosition: 'after',
   disabled: '',
   required: '',
-  checked: 'checked',
+  checked: '',
 };
