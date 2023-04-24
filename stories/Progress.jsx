@@ -16,7 +16,7 @@ const useStyles = makeStyles({
     },
   });
 
-export const Progress = ({ size, validate_state, validate_text }) => {
+export const Progress = ({ size, validate_state, validate_text, value }) => {
 
     const styles = useStyles();
   return (
@@ -25,7 +25,7 @@ export const Progress = ({ size, validate_state, validate_text }) => {
       className={styles.container}
       thickness={size}
       color={validate_state}
-      value={0.7}
+      value={value}
     />
   </Field>
    );
