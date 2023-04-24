@@ -4,8 +4,7 @@ import {
   Option,
   OptionGroup,
   shorthands,
-  useId,
-  DropdownProps, } from "@fluentui/react-components";
+  useId, } from "@fluentui/react-components";
 import React from 'react';
 import PropTypes from 'prop-types';
   
@@ -18,10 +17,9 @@ import PropTypes from 'prop-types';
     },
   });
 
-export const Dropdowns = ({ option, size, label, typer, ...props }) => {
+export const Dropdowns = ({ option, size, label, appearance}) => {
     const dropdownId = useId("dropdown-grouped");
-    const land = ["Cat", "Dog", "Ferret", "Hamster"];
-    const water = ["Fish", "Jellyfish", "Octopus", "Seal"];
+    const opt = ["Option One", "Option Two", "Option Three", "Option Four"];
     const styles = useStyles();
     return (
         <div className={styles.root}>
@@ -29,20 +27,15 @@ export const Dropdowns = ({ option, size, label, typer, ...props }) => {
         <Dropdown
           aria-labelledby={dropdownId}
           placeholder={label}
-          appearance={typer}
+          appearance={appearance}
           size={size}
-          {...props}
+          {...{disabled}}
         >
           <OptionGroup label={label}>
-            {land.map((option) => (
-              <Option key={option} disabled={option === "Ferret"}>
+            {opt.map((option) => (
+              <Option key={option} disabled={option === "Option Three"}>
                 {option}
               </Option>
-            ))}
-          </OptionGroup>
-          <OptionGroup label={label}>
-            {water.map((option) => (
-              <Option key={option}>{option}</Option>
             ))}
           </OptionGroup>
         </Dropdown>
@@ -53,12 +46,14 @@ export const Dropdowns = ({ option, size, label, typer, ...props }) => {
 
 Dropdowns.propTypes = {
   size: PropTypes.oneOf(['small', 'medium', 'large']),
-  typer: PropTypes.oneOf(['outline','underline','filled-darker','filled-lighter']),
+  appearance: PropTypes.oneOf(['outline','underline','filled-darker','filled-lighter']),
+  disabled: PropTypes.oneOf([ 'disabled', '']),
 };
 
 Dropdowns.defaultProps = {
   size: 'medium',
-  typer: 'outline',
+  appearance: 'outline',
+  disabled: '',
 };
 
 

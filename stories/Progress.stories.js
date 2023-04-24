@@ -59,7 +59,7 @@ export const Medium = {
   export const Error = {
     args: {
         size:'medium',
-        validate_text: 'OMG, this field has an error! Upload failed!',
+        validate_text: 'OMG, this upload has an error! Upload failed!',
         validate_state: 'error',
         value: '0.4',
     },
