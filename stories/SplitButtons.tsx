@@ -15,8 +15,10 @@ export const splitbutton = ({ disabled, size, appearance, label }) => {
 <Menu positioning="below-end">
 <MenuTrigger disableButtonEnhancement>
   {(triggerProps: MenuButtonProps) => (
-    <SplitButton  appearance={appearance}
+    <SplitButton
+    appearance={appearance}
     size={size}
+    menuButton={triggerProps}
     {...{disabled}}>{label}</SplitButton>
   )}
 </MenuTrigger>
