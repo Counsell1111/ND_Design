@@ -5,20 +5,29 @@ export default {
   component: menubutton,
   tags: ['autodocs'],
   argTypes: {
-    appearance: { control: 'inline-radio', options: ['primary', 'outline', 'subtle', 'transparent'] },
+    appearance: { control: 'inline-radio', options: ['', 'primary', 'outline', 'subtle', 'transparent'] },
     size: { control: 'inline-radio', options: ['small', 'medium', 'large'] },    
     disabled: { control: 'boolean', options: [ 'disabled', ''] }         
   },
 };
 
-export const Primary = {
+export const Default = {
   args: {
     label: 'Button',
     size:'medium',
-    appearance: 'primary',
+    appearance: '',
     disabled: '',
   },
 };
+
+export const Primary = {
+    args: {
+      label: 'Button',
+      size:'medium',
+      appearance: 'primary',
+      disabled: '',
+    },
+  };
 
 
 export const Small = {

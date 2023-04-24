@@ -30,12 +30,12 @@ export const button = ({ disabled, size, appearance, label }) => {
 
 button.propTypes = {
   size: PropTypes.oneOf(['small', 'medium', 'large']),
-  appearance: PropTypes.oneOf(['primary', 'outline', 'subtle', 'transparent']),
+  appearance: PropTypes.oneOf(['', 'primary', 'outline', 'subtle', 'transparent']),
   disabled: PropTypes.oneOf([ 'disabled', '']),
 };
 
 button.defaultProps = {
   size: 'medium',
-  appearance: 'primary',
+  appearance: '',
   disabled: '',
 };

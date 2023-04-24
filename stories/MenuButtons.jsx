@@ -33,12 +33,12 @@ export const menubutton = ({ disabled, size, appearance, label }) => {
 
 menubutton.propTypes = {
   size: PropTypes.oneOf(['small', 'medium', 'large']),
-  appearance: PropTypes.oneOf(['primary', 'outline', 'subtle', 'transparent']),
+  appearance: PropTypes.oneOf(['', 'primary', 'outline', 'subtle', 'transparent']),
   disabled: PropTypes.oneOf([ 'disabled', '']),
 };
 
 menubutton.defaultProps = {
   size: 'medium',
-  appearance: 'primary',
+  appearance: '',
   disabled: '',
 };

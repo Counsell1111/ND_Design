@@ -5,9 +5,18 @@ export default {
   component: button,
   tags: ['autodocs'],
   argTypes: {
-    appearance: { control: 'inline-radio', options: ['primary', 'outline', 'subtle', 'transparent'] },
+    appearance: { control: 'inline-radio', options: ['', 'primary', 'outline', 'subtle', 'transparent'] },
     size: { control: 'inline-radio', options: ['small', 'medium', 'large'] },    
     disabled: { control: 'boolean', options: [ 'disabled', ''] }         
+  },
+};
+
+export const Default = {
+  args: {
+    label: 'Button',
+    size:'medium',
+    appearance: '',
+    disabled: '',
   },
 };
 
@@ -19,7 +28,6 @@ export const Primary = {
     disabled: '',
   },
 };
-
 
 export const Small = {
   args: {
