@@ -14,7 +14,7 @@ const useStyles = makeStyles({
     },
   });
 
-export const checkbox = ({ labelPosition, disabled, label, size }) => {
+export const checkbox = ({ labelPosition, disabled, label, size, required }) => {
     const styles = useStyles();
   return (
     <div className={styles.root}>
