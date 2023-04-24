@@ -6,7 +6,8 @@ export default {
   tags: ['autodocs'],
   argTypes: {
     size: { control: 'select', options: ['small', 'medium', 'large'] }, 
-    typer: { control: 'select', options: ['outline','underline','filled-darker','filled-lighter','filled-darker-shadow','filled-lighter-shadow'] }       
+    typer: { control: 'select', options: ['outline','underline','filled-darker','filled-lighter','filled-darker-shadow','filled-lighter-shadow'] },
+    disabled: { control: 'boolean', options: [ 'disabled', ''] }     
   },
 };
 
@@ -14,27 +15,39 @@ export const Primary = {
     args: {
         label: 'Placeholder',
         size:'medium',
+        disabled: '',
       },
+};
+
+export const Small = {
+  args: {
+    label: 'Small Input',
+    size: 'small',
+    disabled: '',
+  },
 };
 
 export const Secondary = {
     args: {
-      label: 'Placeholder',
+      label: 'Medium Input',
       size:'medium',
+      disabled: '',
     },
   };
   
   export const Large = {
     args: {
-      label: 'Placeholder',
+      label: 'Large Input',
       size: 'large',
+      disabled: '',
     },
   };
-  
-  export const Small = {
+
+  export const Disabled = {
     args: {
-      label: 'Placeholder',
-      size: 'small',
+      label: 'Medium Input',
+      size:'medium',
+      disabled: 'disabled',
     },
   };
   
