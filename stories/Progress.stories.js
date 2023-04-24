@@ -23,7 +23,7 @@ export const Primary = {
 export const Medium = {
     args: {
         size:'medium',
-        validate_text: 'This is a status message',
+        validate_text: 'This is a status message for a medium progress bar',
         validate_state: 'none',
         value: '0.7',
     },
@@ -31,8 +31,8 @@ export const Medium = {
   
   export const Large = {
     args: {
-        size:'medium',
-        validate_text: 'This is a status message',
+        size:'large',
+        validate_text: 'This is a status message for a large progress bar',
         validate_state: 'none',
         value: '0.7',
     },
@@ -41,8 +41,8 @@ export const Medium = {
   export const Success = {
     args: {
         size:'medium',
-        validate_text: 'This is a status message',
-        validate_state: 'none',
+        validate_text: 'Great Success, very nice! Upload complete!',
+        validate_state: 'success',
         value: '1',
     },
   };
@@ -50,8 +50,8 @@ export const Medium = {
   export const Warning = {
     args: {
         size:'medium',
-        validate_text: 'This is a status message',
-        validate_state: 'none',
+        validate_text: 'Yikes, this is a warning!',
+        validate_state: 'warning',
         value: '0.5',
     },
   };
@@ -59,8 +59,8 @@ export const Medium = {
   export const Error = {
     args: {
         size:'medium',
-        validate_text: 'This is a status message',
-        validate_state: 'none',
+        validate_text: 'OMG, this field has an error! Upload failed!',
+        validate_state: 'error',
         value: '0.4',
     },
   };
