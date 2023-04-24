@@ -16,18 +16,24 @@ const useStyles = makeStyles({
   },
 });
 
-export const switchs = ({ disabled, label }) => {
+export const switchs = ({ labelPosition, checked, disabled, required, label }) => {
 
   const styles = useStyles();
   return (
-   <Switch label={label}  {...{disabled}} />
+   <Switch checked={checked} label={label} labelPosition={labelPosition} {...{disabled}} {...{required}}/>
    );
 };
 
 switchs.propTypes = {
+  labelPosition: PropTypes.oneOf(['before','after', 'above']),
   disabled: PropTypes.oneOf([ 'disabled', '']),
+  checked: PropTypes.oneOf(['true','false']),
+  required: PropTypes.oneOf(['required', '']),
 };
 
 switchs.defaultProps = {
+  labelPosition: 'after',
   disabled: '',
+  required: '',
+  checked: 'true',
 };
