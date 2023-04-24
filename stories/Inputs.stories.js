@@ -45,7 +45,7 @@ export const Secondary = {
 
   export const Disabled = {
     args: {
-      label: 'Medium Input',
+      label: 'Disabled Input',
       size:'medium',
       disabled: 'disabled',
     },
