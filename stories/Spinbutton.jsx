@@ -20,8 +20,8 @@ const useLayoutStyles = makeStyles({
   });
 
 export const Spinbutton = ({ size, label, appearance, disabled }) => {
-    const layoutStyles = useLayoutStyles();
     const id = useId();
+    const styles = useStyles();
   return (
     <div className={styles.root}>
     <Label size={size} htmlFor={inputId}>
