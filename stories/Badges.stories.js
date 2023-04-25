@@ -1,7 +1,7 @@
 import { badge } from './Badges';
 
 export default {
-  title: 'Patterns/Badges',
+  title: 'Patterns/Badges/Badge',
   component: badge,
   tags: ['autodocs'],
   argTypes: {
