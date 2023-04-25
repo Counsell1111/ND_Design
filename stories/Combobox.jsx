@@ -2,6 +2,7 @@ import {
     Combobox,
     makeStyles,
     Option,
+    OptionGroup,
     shorthands,
     useId,} from "@fluentui/react-components";
   import React from 'react';
