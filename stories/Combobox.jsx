@@ -24,7 +24,7 @@ import {
       const styles = useStyles();
       return (
           <div className={styles.root}>
-          <label id={dropdownId} size={size}>{label}</label>
+          <label id={dropdownId}>{label}</label>
           <Combobox
             aria-labelledby={dropdownId}
             placeholder={label}
