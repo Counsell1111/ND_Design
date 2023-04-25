@@ -1,4 +1,4 @@
-import { makeStyles, useId, Label, Slider  } from "@fluentui/react-components";
+import { shorthands, makeStyles, useId, Label, Slider  } from "@fluentui/react-components";
 import React from 'react';
 import PropTypes from 'prop-types';
 
