@@ -6,7 +6,7 @@ export const slider = ({size, label, disabled, vertical }) => {
   const id = useId();
   return (
     <div>
-      <Label htmlFor={id}>{label}</Label>
+      <Label htmlFor={id}>Slider Label</Label>
       <Slider       
       size={size}
       {...{disabled}}
