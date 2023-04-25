@@ -7,6 +7,7 @@ export default {
   argTypes: {
     size: { control: 'inline-radio', options: ['small', 'medium', 'large'] }, 
     validate_state: { control: 'inline-radio', options: ['none', 'success', 'warning', 'error'] },   
+    appearance: { control: 'select', options: ['outline','filled-darker','filled-lighter','filled-darker-shadow','filled-lighter-shadow'] },
     disabled: { control: 'boolean', options: [ 'disabled', ''] },   
     required: { control: 'boolean', options: [ 'required', ''] }     
   },
@@ -14,7 +15,7 @@ export default {
 
 export const Primary = {
     args: {
-        label: 'Field Placeholder',
+        label: 'Textarea Placeholder',
         size:'medium',
         validate_text: 'This is a status message',
         validate_state: 'none',
@@ -25,7 +26,7 @@ export const Primary = {
   
   export const Small = {
       args: {
-          label: 'Small Field',
+          label: 'Small Textarea',
           size:'small',
           validate_text: 'This is a status message',
           validate_state: 'none',
@@ -36,7 +37,7 @@ export const Primary = {
   
   export const Medium = {
       args: {
-          label: 'Medium Field',
+          label: 'Medium Textarea',
           size:'medium',
           validate_text: 'This is a status message',
           validate_state: 'none',
@@ -47,7 +48,7 @@ export const Primary = {
     
     export const Large = {
       args: {
-          label: 'Large Field',
+          label: 'Large Textarea',
           size:'large',
           validate_text: 'This is a status message',
           validate_state: 'none',
@@ -58,7 +59,7 @@ export const Primary = {
   
     export const Success = {
       args: {
-          label: 'Field with success',
+          label: 'Textarea with success',
           size: 'medium',
           validate_text: 'Great Success, very nice!',
           validate_state: 'success',
@@ -69,7 +70,7 @@ export const Primary = {
   
     export const Warning = {
       args: {
-          label: 'Field with warning',
+          label: 'Textarea with warning',
           size: 'medium',
           validate_text: 'Yikes, this is a warning!',
           validate_state: 'warning',
@@ -80,7 +81,7 @@ export const Primary = {
   
     export const Error = {
       args: {
-          label: 'Field with error',
+          label: 'Textarea with error',
           size: 'medium',
           validate_text: 'OMG, this field has an error!',
           validate_state: 'error',
@@ -91,7 +92,7 @@ export const Primary = {
   
     export const Disabled = {
       args: {
-          label: 'Disabled field',
+          label: 'Disabled Textarea',
           size: 'medium',
           validate_text: 'This field is disabled',
           validate_state: 'none',
