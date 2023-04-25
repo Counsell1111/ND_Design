@@ -17,7 +17,7 @@ const useStyles = makeStyles({
     },
   });
 
-export const Inputs = ({ size, label, typer, disabled }) => {
+export const Inputs = ({ size, label, appearance, disabled }) => {
     const inputId = useId("input");
     const styles = useStyles();
   return (
@@ -25,7 +25,7 @@ export const Inputs = ({ size, label, typer, disabled }) => {
     <Label size={size} htmlFor={inputId}>
     {label}
     </Label>
-    <Input size={size} placeholder={label} id={inputId} appearance={typer}  {...{disabled}}/>
+    <Input size={size} placeholder={label} id={inputId} appearance={appearance} {...{disabled}}/>
   </div>
    );
 };
@@ -33,7 +33,7 @@ export const Inputs = ({ size, label, typer, disabled }) => {
 
 Input.propTypes = {
     size: PropTypes.oneOf(['small', 'medium', 'large']),
-    typer: PropTypes.oneOf(['outline','underline','filled-darker','filled-lighter','filled-darker-shadow','filled-lighter-shadow']),
+    appearance: PropTypes.oneOf(['outline','underline','filled-darker','filled-lighter','filled-darker-shadow','filled-lighter-shadow']),
     disabled: PropTypes.oneOf([ 'disabled', '']),
   };
   
