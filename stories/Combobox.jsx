@@ -2,7 +2,8 @@ import {
     Combobox,
     makeStyles,
     Option,
-    shorthands,} from "@fluentui/react-components";
+    shorthands,
+    useId,} from "@fluentui/react-components";
   import React from 'react';
   import PropTypes from 'prop-types';
     
@@ -17,11 +18,12 @@ import {
   });
   
   export const combobox = ({ option, size, label, appearance, disabled}) => {
+      const dropdownId = useId("dropdown-grouped");
       const opt = ["Option One", "Option Two", "Option Three", "Option Four"];
       const styles = useStyles();
       return (
           <div className={styles.root}>
-          <label size={size}>{label}</label>
+          <label id={dropdownId} size={size}>{label}</label>
           <Combobox
             aria-labelledby={dropdownId}
             placeholder={label}
