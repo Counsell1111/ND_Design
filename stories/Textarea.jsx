@@ -16,7 +16,6 @@ const useStyles = makeStyles({
   });
 
 export const textarea = ({ disabled, required, placeholder, size, label, validate_state, validate_text }) => {
-    const inputId = useId("input");
     const styles = useStyles();
   return (
     <div className={styles.root}>
