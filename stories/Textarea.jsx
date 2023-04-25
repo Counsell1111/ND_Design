@@ -15,7 +15,7 @@ const useStyles = makeStyles({
     },
   });
 
-export const textarea = ({ disabled, required, placeholder, size, label, validate_state, validate_text }) => {
+export const textarea = ({ appearance, disabled, required, placeholder, size, label, validate_state, validate_text }) => {
     const styles = useStyles();
   return (
     <div className={styles.root}>
@@ -27,6 +27,7 @@ export const textarea = ({ disabled, required, placeholder, size, label, validat
      {...{required}}
      >
     <Textarea  
+            appearance={appearance}
             resize="vertical"
             placeholder={label}
             size={size}
