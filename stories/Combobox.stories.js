@@ -11,6 +11,14 @@ export default {
   },
 };
 
+export const Primary = {
+    args: {
+        label: 'Primary Dropdown',
+        size:'medium',
+        disabled: '',
+    },
+  };
+
 export const Small = {
     args: {
         label: 'Small Dropdown',
