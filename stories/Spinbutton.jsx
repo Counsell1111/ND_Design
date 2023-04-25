@@ -23,10 +23,12 @@ export const Spinbutton = ({ size, label, appearance, disabled }) => {
     const layoutStyles = useLayoutStyles();
     const id = useId();
   return (
-    <>
-      <Label htmlFor={id}>{label}</Label>
-      <SpinButton size={size} apperence={appearance} defaultValue={10} min={0} max={20} id={id} {...{disabled}}/>
-    </>
+    <div className={styles.root}>
+    <Label size={size} htmlFor={inputId}>
+    {label}
+    </Label>
+      <SpinButton size={size} appearance={appearance} defaultValue={10} min={0} max={20} id={id} {...{disabled}}/>
+      </div>
    );
 };
 
