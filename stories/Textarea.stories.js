@@ -17,7 +17,7 @@ export const Primary = {
     args: {
         label: 'Textarea Placeholder',
         size:'medium',
-        validate_text: 'This is a status message',
+        validate_text: '',
         validate_state: 'none',
         disabled: '',
         required: '',
@@ -83,7 +83,7 @@ export const Primary = {
       args: {
           label: 'Textarea with error',
           size: 'medium',
-          validate_text: 'OMG, this field has an error!',
+          validate_text: 'OMG, this textarea has an error!',
           validate_state: 'error',
           disabled: '',
           required: '',
@@ -94,7 +94,7 @@ export const Primary = {
       args: {
           label: 'Disabled Textarea',
           size: 'medium',
-          validate_text: 'This field is disabled',
+          validate_text: 'This textarea is disabled',
           validate_state: 'none',
           disabled: 'disabled',
           required: '',
