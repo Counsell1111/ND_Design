@@ -5,14 +5,14 @@ import PropTypes from 'prop-types';
 export const slider = ({size, label, disabled, vertical }) => {
   const id = useId();
   return (
-    <div>
-      <Label htmlFor={id}>Slider Label</Label>
+    <>
+      <Label htmlFor={id}>{label}</Label>
       <Slider       
       size={size}
       {...{disabled}}
       {...{vertical}}
       defaultValue={20} id={id} />
-    </div>
+    </>
    );
 };
 
