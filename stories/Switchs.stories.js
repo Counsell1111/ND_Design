@@ -13,8 +13,8 @@ export default {
 
 export const Primary = {
   args: {
-    labelPosition:'after',
     label: 'Primary Switch',
+    labelPosition:'after',
     disabled: '',
     required: '',
   },

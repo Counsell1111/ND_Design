@@ -14,8 +14,8 @@ export default {
 
 export const Primary = {
   args: {
-    positioning:'above',
     label: 'Tooltip',
+    positioning:'above',
     appearance: 'normal',
     relationship: 'label',
     withArrow: '',
