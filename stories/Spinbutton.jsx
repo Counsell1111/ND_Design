@@ -1,23 +1,21 @@
 import {  
+    shorthands,
     makeStyles,
-    tokens,
     useId,
     Label,
     SpinButton, } from "@fluentui/react-components";
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const useLayoutStyles = makeStyles({
-    base: {
-      display: "flex",
-      flexDirection: "column",
-      maxWidth: "500px",
-  
-      "> label": {
-        marginBottom: tokens.spacingVerticalXXS,
-      },
+const useStyles = makeStyles({
+    root: {
+       display: "flex",
+       flexDirection: "column",
+       ...shorthands.gap("2px"),
+       maxWidth: "400px",
     },
   });
+
 
 export const Spinbutton = ({ size, label, appearance, disabled }) => {
     const id = useId();
