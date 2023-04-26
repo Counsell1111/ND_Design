@@ -41,8 +41,8 @@ import {
  <div className={styles.container}>
 <MenuList>
 <MenuItem icon={<CutIcon />}>Cut</MenuItem>
-<MenuItem icon={<CutIcon />}>Paste</MenuItem>
-<MenuItem icon={<CutIcon />}>Edit</MenuItem>
+<MenuItem icon={<PasteIcon />}>Paste</MenuItem>
+<MenuItem icon={<EditIcon />}>Edit</MenuItem>
 <Menu>
   <MenuTrigger disableButtonEnhancement>
     <MenuItem>Preferences</MenuItem>
@@ -50,8 +50,8 @@ import {
   <MenuPopover>
     <MenuList>
       <MenuItem icon={<CutIcon />}>Cut</MenuItem>
-      <MenuItem icon={<CutIcon />}>Paste</MenuItem>
-      <MenuItem icon={<CutIcon />}>Edit</MenuItem>
+      <MenuItem icon={<PasteIcon />}>Paste</MenuItem>
+      <MenuItem icon={<EditIcon />}>Edit</MenuItem>
     </MenuList>
   </MenuPopover>
 </Menu>
