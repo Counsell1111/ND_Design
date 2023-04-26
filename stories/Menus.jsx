@@ -8,6 +8,19 @@ import {
     MenuTrigger,} from "@fluentui/react-components";
   import React from 'react';
   import PropTypes from 'prop-types';
+  import {
+    bundleIcon,
+    CutRegular,
+    CutFilled,
+    ClipboardPasteRegular,
+    ClipboardPasteFilled,
+    EditRegular,
+    EditFilled,
+  } from "@fluentui/react-icons";
+  
+  const CutIcon = bundleIcon(CutFilled, CutRegular);
+  const PasteIcon = bundleIcon(ClipboardPasteFilled, ClipboardPasteRegular);
+  const EditIcon = bundleIcon(EditFilled, EditRegular);
     
   const useMenuListContainerStyles = makeStyles({
     container: {
@@ -27,18 +40,18 @@ import {
       return (
  <div className={styles.container}>
 <MenuList>
-<MenuItem>Cut</MenuItem>
-<MenuItem>Paste</MenuItem>
-<MenuItem>Edit</MenuItem>
+<MenuItem icon={<CutIcon />}>Cut</MenuItem>
+<MenuItem icon={<CutIcon />}>Paste</MenuItem>
+<MenuItem icon={<CutIcon />}>Edit</MenuItem>
 <Menu>
   <MenuTrigger disableButtonEnhancement>
     <MenuItem>Preferences</MenuItem>
   </MenuTrigger>
   <MenuPopover>
     <MenuList>
-      <MenuItem>Cut</MenuItem>
-      <MenuItem>Paste</MenuItem>
-      <MenuItem>Edit</MenuItem>
+      <MenuItem icon={<CutIcon />}>Cut</MenuItem>
+      <MenuItem icon={<CutIcon />}>Paste</MenuItem>
+      <MenuItem icon={<CutIcon />}>Edit</MenuItem>
     </MenuList>
   </MenuPopover>
 </Menu>
