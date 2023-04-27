@@ -1,11 +1,11 @@
 @storybook/cli v7.0.4
 
-info => Cleaning outputDir: /var/folders/qp/4w0ndxsx53qgt5zs5qw93tc40000gp/T/chromatic--86779-0C7GbBeoPDW6
+info => Cleaning outputDir: /var/folders/qp/4w0ndxsx53qgt5zs5qw93tc40000gp/T/chromatic--96383-mNciulT1Oill
 info => Loading presets
 info => Building manager..
-info => Manager built (99 ms)
+info => Manager built (97 ms)
 info => Compiling preview..
-info => Copying static files: /Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/manager/static at /var/folders/qp/4w0ndxsx53qgt5zs5qw93tc40000gp/T/chromatic--86779-0C7GbBeoPDW6/sb-common-assets
+info => Copying static files: /Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/manager/static at /var/folders/qp/4w0ndxsx53qgt5zs5qw93tc40000gp/T/chromatic--96383-mNciulT1Oill/sb-common-assets
 info Addon-docs: using MDX2
 info => Using implicit CSS loaders
 info => Using default Webpack5 setup
@@ -112,13 +112,13 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 18% building import loader ./node_modules/@storybook/mdx2-csf/loader.js
 <s> [webpack.Progress] 18% building 0/1 entries 29/88 dependencies 4/27 modules
 <s> [webpack.Progress] 18% building import loader ./node_modules/unplugin/dist/webpack/loaders/transform.js
-<s> [webpack.Progress] 18% building 0/1 entries 88/147 dependencies 8/55 modules
-<s> [webpack.Progress] 37% building import loader ./node_modules/style-loader/dist/cjs.js
-<s> [webpack.Progress] 37% building import loader ./node_modules/css-loader/dist/cjs.js
-<s> [webpack.Progress] 37% building 0/1 entries 369/441 dependencies 77/152 modules
-<s> [webpack.Progress] 26% building 0/1 entries 1327/1400 dependencies 236/765 modules
-<s> [webpack.Progress] 38% building 0/1 entries 3324/3500 dependencies 736/1421 modules
-<s> [webpack.Progress] 65% building 1/1 entries 4039/4039 dependencies 1555/1555 modules
+<s> [webpack.Progress] 18% building 0/1 entries 85/147 dependencies 8/54 modules
+<s> [webpack.Progress] 40% building import loader ./node_modules/style-loader/dist/cjs.js
+<s> [webpack.Progress] 40% building import loader ./node_modules/css-loader/dist/cjs.js
+<s> [webpack.Progress] 40% building 0/1 entries 373/445 dependencies 83/152 modules
+<s> [webpack.Progress] 25% building 0/1 entries 1300/1349 dependencies 212/741 modules
+<s> [webpack.Progress] 36% building 0/1 entries 3068/3100 dependencies 673/1406 modules
+<s> [webpack.Progress] 65% building 1/1 entries 4043/4043 dependencies 1555/1555 modules
 <s> [webpack.Progress] 65% building
 <s> [webpack.Progress] 69% building finish
 <s> [webpack.Progress] 69% building finish
@@ -193,6 +193,12 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 84% sealing chunk id optimization
 <s> [webpack.Progress] 85% sealing after chunk id optimization
 <s> [webpack.Progress] 85% sealing after chunk id optimization
+<s> [webpack.Progress] 86% sealing record modules
+<s> [webpack.Progress] 86% sealing record modules RecordIdsPlugin
+<s> [webpack.Progress] 86% sealing record modules
+<s> [webpack.Progress] 86% sealing record chunks
+<s> [webpack.Progress] 86% sealing record chunks RecordIdsPlugin
+<s> [webpack.Progress] 86% sealing record chunks
 <s> [webpack.Progress] 87% sealing module hashing
 <s> [webpack.Progress] 87% sealing module hashing
 <s> [webpack.Progress] 87% sealing code generation
@@ -203,6 +209,8 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 89% sealing hashing
 <s> [webpack.Progress] 89% sealing after hashing
 <s> [webpack.Progress] 89% sealing after hashing
+<s> [webpack.Progress] 90% sealing record hash
+<s> [webpack.Progress] 90% sealing record hash
 <s> [webpack.Progress] 91% sealing module assets processing
 <s> [webpack.Progress] 91% sealing module assets processing
 <s> [webpack.Progress] 91% sealing chunk assets processing
@@ -214,8 +222,8 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.aaf47468.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.aaf47468.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.1dbcbaef.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.1dbcbaef.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.c8f368b3.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.c8f368b3.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin designers-mdx.721df212.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin designers-mdx.721df212.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin engineers-mdx.c234ffaf.iframe.bundle.js generate SourceMap
@@ -238,10 +246,10 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Dropdowns-stories.fbbdad55.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Fields-stories.b62032d7.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Fields-stories.b62032d7.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Fonts-stories.28af548e.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Fonts-stories.28af548e.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Headers-stories.f00aebff.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Headers-stories.f00aebff.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Fonts-stories.85b2fcf9.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Fonts-stories.85b2fcf9.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Headers-stories.8efd1fbd.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Headers-stories.8efd1fbd.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Inputs-stories.5b53e83e.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Inputs-stories.5b53e83e.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin MenuButtons-stories.1face536.iframe.bundle.js generate SourceMap
@@ -359,8 +367,8 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.2b9aa65f.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.2b9aa65f.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.e9890676.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.e9890676.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.c35cc2b6.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.c35cc2b6.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin designers-mdx.d1d68ae1.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin designers-mdx.d1d68ae1.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin engineers-mdx.320cbe9a.iframe.bundle.js generate SourceMap
@@ -383,10 +391,10 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Dropdowns-stories.638a01da.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Fields-stories.171002ab.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Fields-stories.171002ab.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Fonts-stories.90d9fb87.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Fonts-stories.90d9fb87.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Headers-stories.1b983ce4.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Headers-stories.1b983ce4.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Fonts-stories.c2497db7.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Fonts-stories.c2497db7.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Headers-stories.b2f9222d.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Headers-stories.b2f9222d.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Inputs-stories.eb2c7e6a.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Inputs-stories.eb2c7e6a.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin MenuButtons-stories.59e091bb.iframe.bundle.js generate SourceMap
@@ -484,109 +492,46 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 92% sealing asset processing
 <s> [webpack.Progress] 93% sealing after asset optimization
 <s> [webpack.Progress] 93% sealing after asset optimization
+<s> [webpack.Progress] 93% sealing recording
+<s> [webpack.Progress] 93% sealing recording
 <s> [webpack.Progress] 94% sealing after seal
 <s> [webpack.Progress] 94% sealing after seal
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 98% emitting after emit
+<s> [webpack.Progress] 98% emitting after emit SizeLimitsPlugin
+<s> [webpack.Progress] 98% emitting after emit
 <s> [webpack.Progress] 99% done plugins
 <s> [webpack.Progress] 99% done plugins CaseSensitivePathsPlugin
 <s> [webpack.Progress] 99% done plugins
 <s> [webpack.Progress] 99% 
 
+<s> [webpack.Progress] 99% cache store build dependencies
+<s> [webpack.Progress] 99% cache store build dependencies
 <s> [webpack.Progress] 99% cache begin idle
 <s> [webpack.Progress] 99% cache begin idle
 <s> [webpack.Progress] 100% 
 
-ERR! => Failed to build the preview
-ERR! Module build failed (from ./node_modules/babel-loader/lib/index.js):
-ERR! SyntaxError: /Users/jacobcounsell/Documents/GitHub/ND_Design/stories/Fonts.jsx: Identifier 'text' has already been declared. (6:15)
-ERR! 
-ERR!   4 |   
-ERR!   5 |   
-ERR! > 6 |   export const text = ({}) => {
-ERR!     |                ^
-ERR!   7 |       return (
-ERR!   8 |         <Text>This is an example of the Text component's usage.</Text>
-ERR!   9 |       );
-ERR!     at instantiate (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:653:32)
-ERR!     at constructor (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:947:12)
-ERR!     at JSXParserMixin.raise (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:3271:19)
-ERR!     at ScopeHandler.checkRedeclarationInScope (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:1557:19)
-ERR!     at ScopeHandler.declareName (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:1528:12)
-ERR!     at JSXParserMixin.declareNameFromIdentifier (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:7545:16)
-ERR!     at JSXParserMixin.checkIdentifier (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:7541:12)
-ERR!     at JSXParserMixin.checkLVal (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:7480:12)
-ERR!     at JSXParserMixin.parseVarId (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:13227:10)
-ERR!     at JSXParserMixin.parseVar (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:13200:12)
-ERR!     at JSXParserMixin.parseVarStatement (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:13040:10)
-ERR!     at JSXParserMixin.parseStatementContent (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:12637:23)
-ERR!     at JSXParserMixin.parseStatementLike (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:12557:17)
-ERR!     at JSXParserMixin.parseStatementListItem (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:12537:17)
-ERR!     at JSXParserMixin.parseExportDeclaration (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:13780:17)
-ERR!     at JSXParserMixin.maybeParseExportDeclaration (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:13735:31)
-ERR!     at JSXParserMixin.parseExport (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:13659:29)
-ERR!     at JSXParserMixin.parseStatementContent (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:12669:27)
-ERR!     at JSXParserMixin.parseStatementLike (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:12557:17)
-ERR!     at JSXParserMixin.parseModuleItem (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:12534:17)
-ERR!     at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:13129:36)
-ERR!     at JSXParserMixin.parseBlockBody (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:13122:10)
-ERR!     at JSXParserMixin.parseProgram (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:12445:10)
-ERR!     at JSXParserMixin.parseTopLevel (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:12435:25)
-ERR!     at JSXParserMixin.parse (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:14258:10)
-ERR!     at parse (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/parser/lib/index.js:14278:26)
-ERR!     at parser (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/core/lib/parser/index.js:41:34)
-ERR!     at parser.next (<anonymous>)
-ERR!     at normalizeFile (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/core/lib/transformation/normalize-file.js:64:38)
-ERR!     at normalizeFile.next (<anonymous>)
-ERR!     at run (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/core/lib/transformation/index.js:21:50)
-ERR!     at run.next (<anonymous>)
-ERR!     at transform (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@babel/core/lib/transform.js:22:41)
-ERR!     at transform.next (<anonymous>)
-ERR!     at step (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/gensync/index.js:261:32)
-ERR!     at /Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/gensync/index.js:273:13
-ERR!     at async.call.result.err.err (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/gensync/index.js:223:11)
-ERR! Critical dependency: require function is used in a way in which dependencies cannot be statically extracted
-ERR! Critical dependency: require function is used in a way in which dependencies cannot be statically extracted
-ERR! Critical dependency: require function is used in a way in which dependencies cannot be statically extracted
-ERR! Critical dependency: require function is used in a way in which dependencies cannot be statically extracted
+info => Preview built (9.67 s)
+WARN Critical dependency: require function is used in a way in which dependencies cannot be statically extracted
+WARN Critical dependency: require function is used in a way in which dependencies cannot be statically extracted
+WARN Critical dependency: require function is used in a way in which dependencies cannot be statically extracted
+WARN Critical dependency: require function is used in a way in which dependencies cannot be statically extracted
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   4463.4a4fcc4d.iframe.bundle.js (583 KiB)
+WARN   1582.bc3e78d9.iframe.bundle.js (663 KiB)
+WARN   3737.3a06f2d7.iframe.bundle.js (789 KiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (808 KiB)
+WARN       runtime~main.c35cc2b6.iframe.bundle.js
+WARN       3737.3a06f2d7.iframe.bundle.js
+WARN       main.2b9aa65f.iframe.bundle.js
+WARN 
 <s> [webpack.Progress] 99% cache shutdown
 <s> [webpack.Progress] 99% cache shutdown
 <s> [webpack.Progress] 100% 
 
-ERR! Error: => Webpack failed, learn more with --debug-webpack
-ERR!     at /Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/builder-webpack5/dist/index.js:113:210
-ERR!     at /Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/webpack/lib/HookWebpackError.js:40:5
-ERR!     at Hook.eval [as callAsync] (eval at create (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/tapable/lib/HookCodeFactory.js:28:14), <anonymous>:11:1)
-ERR!     at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/tapable/lib/Hook.js:15:15)
-ERR!     at Cache.shutdown (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/webpack/lib/Cache.js:116:25)
-ERR!     at /Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/webpack/lib/Compiler.js:977:18
-ERR!     at Hook.eval [as callAsync] (eval at create (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/tapable/lib/HookCodeFactory.js:28:14), <anonymous>:6:1)
-ERR!     at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/tapable/lib/Hook.js:15:15)
-ERR!     at Compiler.close (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/webpack/lib/Compiler.js:972:25)
-ERR!     at /Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/builder-webpack5/dist/index.js:113:156
-ERR!     at finalCallback (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/webpack/lib/Compiler.js:318:9)
-ERR!     at /Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/webpack/lib/Compiler.js:333:18
-ERR!     at Hook.eval [as callAsync] (eval at create (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/tapable/lib/HookCodeFactory.js:28:14), <anonymous>:23:1)
-ERR!     at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/tapable/lib/Hook.js:15:15)
-ERR!     at onCompiled (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/webpack/lib/Compiler.js:330:25)
-ERR!     at /Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/webpack/lib/Compiler.js:952:26
-ERR!     at eval (eval at create (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/tapable/lib/HookCodeFactory.js:28:14), <anonymous>:13:1)
-ERR!     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-ERR!  Error: => Webpack failed, learn more with --debug-webpack
-ERR!     at /Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/builder-webpack5/dist/index.js:113:210
-ERR!     at /Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/webpack/lib/HookWebpackError.js:40:5
-ERR!     at Hook.eval [as callAsync] (eval at create (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/tapable/lib/HookCodeFactory.js:28:14), <anonymous>:11:1)
-ERR!     at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/tapable/lib/Hook.js:15:15)
-ERR!     at Cache.shutdown (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/webpack/lib/Cache.js:116:25)
-ERR!     at /Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/webpack/lib/Compiler.js:977:18
-ERR!     at Hook.eval [as callAsync] (eval at create (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/tapable/lib/HookCodeFactory.js:28:14), <anonymous>:6:1)
-ERR!     at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/tapable/lib/Hook.js:15:15)
-ERR!     at Compiler.close (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/webpack/lib/Compiler.js:972:25)
-ERR!     at /Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/builder-webpack5/dist/index.js:113:156
-ERR!     at finalCallback (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/webpack/lib/Compiler.js:318:9)
-ERR!     at /Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/webpack/lib/Compiler.js:333:18
-ERR!     at Hook.eval [as callAsync] (eval at create (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/tapable/lib/HookCodeFactory.js:28:14), <anonymous>:23:1)
-ERR!     at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/tapable/lib/Hook.js:15:15)
-ERR!     at onCompiled (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/webpack/lib/Compiler.js:330:25)
-ERR!     at /Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/webpack/lib/Compiler.js:952:26
-ERR!     at eval (eval at create (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/tapable/lib/HookCodeFactory.js:28:14), <anonymous>:13:1)
-ERR!     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-[?25l[2K[1G[36m?[39m [1mWould you like to help improve Storybook by sending anonymous crash reports?[22m [90m›[39m [90m(Y/n)[39m
+info => Output directory: /var/folders/qp/4w0ndxsx53qgt5zs5qw93tc40000gp/T/chromatic--96383-mNciulT1Oill
