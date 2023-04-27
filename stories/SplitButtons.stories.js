@@ -1,7 +1,7 @@
 import { splitbutton } from './SplitButtons';
 
 export default {
-  title: 'Patterns/Buttons/SplitButton',
+  title: 'Components/Buttons/SplitButton',
   component: splitbutton,
   tags: ['autodocs'],
   argTypes: {

@@ -1,7 +1,7 @@
 import { togglebutton } from './ToggleButtons';
 
 export default {
-  title: 'Patterns/Buttons/ToggleButton',
+  title: 'Components/Buttons/ToggleButton',
   component: togglebutton,
   tags: ['autodocs'],
   argTypes: {

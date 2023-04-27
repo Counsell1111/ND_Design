@@ -1,7 +1,7 @@
 import { Dropdowns } from './Dropdowns';
 
 export default {
-  title: 'Patterns/Dropdowns',
+  title: 'Components/Dropdowns',
   component: Dropdowns,
   tags: ['autodocs'],
   argTypes: {

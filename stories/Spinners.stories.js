@@ -1,7 +1,7 @@
 import { spinner } from './Spinners';
 
 export default {
-  title: 'Patterns/Spinner',
+  title: 'Components/Spinner',
   component: spinner,
   tags: ['autodocs'],
   argTypes: {

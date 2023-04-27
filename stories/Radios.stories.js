@@ -1,7 +1,7 @@
 import { radiogroup } from './Radios';
 
 export default {
-  title: 'Patterns/Radios',
+  title: 'Components/Radios',
   component: radiogroup,
   tags: ['autodocs'],
   argTypes: {

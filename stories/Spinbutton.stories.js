@@ -1,7 +1,7 @@
 import { Spinbutton } from './Spinbutton';
 
 export default {
-  title: 'Patterns/SpinButton',
+  title: 'Components/SpinButton',
   component: Spinbutton,
   tags: ['autodocs'],
   argTypes: {

@@ -1,7 +1,7 @@
 import { Tablist } from './Tablist';
 
 export default {
-  title: 'Patterns/Tablist',
+  title: 'Components/Tablist',
   component: Tablist,
   tags: ['autodocs'],
   argTypes: {

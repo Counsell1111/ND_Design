@@ -1,7 +1,7 @@
 import { tooltip } from './Tooltips';
 
 export default {
-  title: 'Patterns/Tooltip',
+  title: 'Components/Tooltip',
   component: tooltip,
   tags: ['autodocs'],
   argTypes: {  

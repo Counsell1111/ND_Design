@@ -1,7 +1,7 @@
 import { combobox } from './Combobox';
 
 export default {
-  title: 'Patterns/Combobox',
+  title: 'Components/Combobox',
   component: combobox,
   tags: ['autodocs'],
   argTypes: {

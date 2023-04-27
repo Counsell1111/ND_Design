@@ -2,7 +2,7 @@ import { Datagrid } from './DataGrid';
 
 
 export default {
-  title: 'Components/DataGrid',
+  title: 'Patterns/DataGrids/DataGrid',
   component: Datagrid,
   tags: ['autodocs'],
   argTypes: {             

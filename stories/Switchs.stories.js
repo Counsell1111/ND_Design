@@ -1,7 +1,7 @@
 import { switchs } from './Switchs';
 
 export default {
-  title: 'Patterns/Switch',
+  title: 'Components/Switch',
   component: switchs,
   tags: ['autodocs'],
   argTypes: {  

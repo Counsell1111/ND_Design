@@ -1,7 +1,7 @@
 import { menubutton } from './MenuButtons';
 
 export default {
-  title: 'Patterns/Buttons/MenuButton',
+  title: 'Components/Buttons/MenuButton',
   component: menubutton,
   tags: ['autodocs'],
   argTypes: {

@@ -1,7 +1,7 @@
 import { fields } from './Fields';
 
 export default {
-  title: 'Patterns/Field',
+  title: 'Components/Field',
   component: fields,
   tags: ['autodocs'],
   argTypes: {
@@ -16,7 +16,7 @@ export const Primary = {
   args: {
       label: 'Field Placeholder',
       size:'medium',
-      validate_text: 'This is a status message',
+      validate_text: '',
       validate_state: 'none',
       disabled: '',
       required: '',

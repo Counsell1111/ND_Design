@@ -2,7 +2,7 @@ import { Dialogs } from './Dialogs';
 
 
 export default {
-  title: 'Components/Dialogs',
+  title: 'Patterns/Dialogs/Dialogs',
   component: Dialogs,
   tags: ['autodocs'],
   argTypes: {             

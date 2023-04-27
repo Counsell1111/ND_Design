@@ -1,7 +1,7 @@
 import { Progress } from './Progress';
 
 export default {
-  title: 'Patterns/Progress',
+  title: 'Components/Progress',
   component: Progress,
   tags: ['autodocs'],
   argTypes: { 

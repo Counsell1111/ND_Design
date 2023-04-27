@@ -1,7 +1,7 @@
 import { menu } from './Menus';
 
 export default {
-  title: 'Patterns/Menus/Menu',
+  title: 'Components/Menus/Menu',
   component: menu,
   tags: ['autodocs'],
   argTypes: {  
