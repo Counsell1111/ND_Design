@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
   
   
-  export const text = ({size, weight, align, wrap, font, underline, strikethrough, truncate, italic}) => {
+  export const text = ({size, weight, align, wrap, font, underline, strikethrough, truncate, italic, label}) => {
       return (
         <Text 
         size={size} 
