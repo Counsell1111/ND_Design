@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
   export const text = ({size, weight, align, wrap, font, underline, strikethrough, truncate, italic, label}) => {
       return (
         <Text 
-        size={size} 
+        size={...{size}}
         weight={weight} 
         align={align} 
         wrap={wrap} 
