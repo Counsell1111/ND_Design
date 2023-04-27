@@ -1,12 +1,23 @@
-import { Text } from "@fluentui/react-components";
+import { makeStyles, shorthands, Text } from "@fluentui/react-components";
 import React from 'react';
 import PropTypes from 'prop-types';
-  
+
+
+const useStyles = makeStyles({
+    container: {
+      ...shorthands.gap("16px"),
+      display: "flex",
+      flexDirection: "column",
+      alignItems: "stretch",
+    },
+  });
   
   export const text = ({size, weight, align, wrap, font, underline, strikethrough, truncate, italic, label}) => {
+    const styles = useStyles();
       return (
+        <div className={styles.container}>
         <Text 
-        size={...{size}}
+        size={size} 
         weight={weight} 
         align={align} 
         wrap={wrap} 
@@ -17,11 +28,12 @@ import PropTypes from 'prop-types';
         {...{italic}}>
             {label}
             </Text>
+            </div>
       );
   };
   
 text.propTypes = {
-    size: PropTypes.oneOf(['100','200','300','400','500','600','700','800','900','1000']),
+    size: PropTypes.oneOf([100,200,300,400,500,600,700,800,900,1000]),
     weight: PropTypes.oneOf(['medium','regular','semibold','bold']),
     align: PropTypes.oneOf(['center','start','justify','end']),
     font: PropTypes.oneOf(['base','numeric','monospace']),
