@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
   
   
-  export const text = ({}) => {
+  export const text = ({size, weight, align, wrap, font, underline, strikethrough, truncate, italic}) => {
       return (
         <Text 
         size={size} 
@@ -19,7 +19,6 @@ import PropTypes from 'prop-types';
             </Text>
       );
   };
-  
   
 text.propTypes = {
     size: PropTypes.oneOf(['100','200','300','400','500','600','700','800','900','1000']),
