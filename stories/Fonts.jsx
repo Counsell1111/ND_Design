@@ -1,4 +1,4 @@
-import { text } from "@fluentui/react-components";
+import { Text } from "@fluentui/react-components";
 import React from 'react';
 import PropTypes from 'prop-types';
   
