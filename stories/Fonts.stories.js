@@ -10,7 +10,7 @@ export default {
     font: { control: 'inline-radio', options: ['base','numeric','monospace'] },
     align: { control: 'inline-radio', options: ['center','start','justify','end'] },     
     underline: { control: 'boolean', options: [ 'underline', ''] },  
-    stikethrough: { control: 'boolean', options: [ 'stikethrough', ''] },  
+    stikethrough: { control: 'boolean', options: [ 'strikethrough', ''] },  
     italic: { control: 'boolean', options: [ 'italic', ''] }, 
     wrap: { control: 'boolean', options: [ 'true', 'false'] },  
     truncate: { control: 'boolean', options: [ 'truncate', ''] }, 
