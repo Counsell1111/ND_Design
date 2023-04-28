@@ -6,6 +6,7 @@ const config = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
     "@storybook/addon-storysource",
+    "@storybook/addon-console",
   ],
   framework: {
     name: "@storybook/react-webpack5",
