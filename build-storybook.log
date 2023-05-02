@@ -1,11 +1,11 @@
 @storybook/cli v7.0.4
 
-info => Cleaning outputDir: /var/folders/qp/4w0ndxsx53qgt5zs5qw93tc40000gp/T/chromatic--49416-e2PAAoqmjvqQ
+info => Cleaning outputDir: /var/folders/qp/4w0ndxsx53qgt5zs5qw93tc40000gp/T/chromatic--65068-U6YuyxpTUfEj
 info => Loading presets
 info => Building manager..
-info => Manager built (231 ms)
+info => Manager built (218 ms)
 info => Compiling preview..
-info => Copying static files: /Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/manager/static at /var/folders/qp/4w0ndxsx53qgt5zs5qw93tc40000gp/T/chromatic--49416-e2PAAoqmjvqQ/sb-common-assets
+info => Copying static files: /Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/manager/static at /var/folders/qp/4w0ndxsx53qgt5zs5qw93tc40000gp/T/chromatic--65068-U6YuyxpTUfEj/sb-common-assets
 info Addon-docs: using MDX2
 info => Using implicit CSS loaders
 info => Using default Webpack5 setup
@@ -106,21 +106,79 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 9% setup compilation
 <s> [webpack.Progress] 10% building
 <s> [webpack.Progress] 10% building 0/1 entries 0/0 dependencies 0/0 modules
-<s> [webpack.Progress] 10% building import loader ./node_modules/babel-loader/lib/index.js
+WARN 🚨 Unable to index ./stories/Labels.stories.js:
+WARN   NoMetaError: CSF: missing default export /Users/jacobcounsell/Documents/GitHub/ND_Design/stories/Labels.stories.js (line 1, col 0)
+WARN 
+WARN More info: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
+WARN     at CsfFile.parse (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/csf-tools/dist/index.js:14:206)
+WARN     at Object.indexer (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/presets/common-preset.js:8:2034)
+WARN     at async StoryIndexGenerator.extractStories (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:13:3494)
+WARN     at async /Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:13:1829
+WARN     at async Promise.all (index 11)
+WARN     at async Promise.all (index 1)
+WARN     at async StoryIndexGenerator.updateExtracted (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:13:1601)
+WARN     at async StoryIndexGenerator.ensureExtracted (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:13:2222)
+WARN     at async StoryIndexGenerator.initialize (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:13:1528)
+WARN 🚨 Unable to index ./stories/Labels.stories.js:
+WARN   NoMetaError: CSF: missing default export /Users/jacobcounsell/Documents/GitHub/ND_Design/stories/Labels.stories.js (line 1, col 0)
+WARN 
+WARN More info: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
+WARN     at CsfFile.parse (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/csf-tools/dist/index.js:14:206)
+WARN     at Object.indexer (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/presets/common-preset.js:8:2034)
+WARN     at async StoryIndexGenerator.extractStories (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:13:3494)
+WARN     at async /Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:13:1829
+WARN     at async Promise.all (index 11)
+WARN     at async Promise.all (index 1)
+WARN     at async StoryIndexGenerator.updateExtracted (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:13:1601)
+WARN     at async StoryIndexGenerator.ensureExtracted (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:13:2222)
+WARN     at async StoryIndexGenerator.initialize (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:13:1528)
+ERR! Error: Unable to index ./stories/Labels.stories.js
+ERR!     at StoryIndexGenerator.getIndex (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:17:3457)
+ERR!     at async extractStoriesJson (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:10:4413)
+ERR!     at async Promise.all (index 3)
+ERR!     at async buildStaticStandalone (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:31:1793)
+ERR!     at async withTelemetry (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:35:3422)
+ERR!     at async build (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/cli/dist/generate.js:430:1058)
+ERR!     at async Command.<anonymous> (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/cli/dist/generate.js:433:125)
+ERR!  MultipleIndexingError: Unable to index ./stories/Labels.stories.js
+ERR!     at StoryIndexGenerator.getIndex (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:17:3457)
+ERR!     at async extractStoriesJson (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:10:4413)
+ERR!     at async Promise.all (index 3)
+ERR!     at async buildStaticStandalone (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:31:1793)
+ERR!     at async withTelemetry (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:35:3422)
+ERR!     at async build (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/cli/dist/generate.js:430:1058)
+ERR!     at async Command.<anonymous> (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/cli/dist/generate.js:433:125) {
+ERR!   indexingErrors: [
+ERR!     NoMetaError: CSF: missing default export /Users/jacobcounsell/Documents/GitHub/ND_Design/stories/Labels.stories.js (line 1, col 0)
+ERR!     
+ERR!     More info: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
+ERR!         at CsfFile.parse (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/csf-tools/dist/index.js:14:206)
+ERR!         at Object.indexer (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/presets/common-preset.js:8:2034)
+ERR!         at async StoryIndexGenerator.extractStories (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:13:3494)
+ERR!         at async /Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:13:1829
+ERR!         at async Promise.all (index 11)
+ERR!         at async Promise.all (index 1)
+ERR!         at async StoryIndexGenerator.updateExtracted (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:13:1601)
+ERR!         at async StoryIndexGenerator.ensureExtracted (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:13:2222)
+ERR!         at async StoryIndexGenerator.initialize (/Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/core-server/dist/index.js:13:1528) {
+ERR!       importPaths: [Array]
+ERR!     }
+ERR!   ]
+ERR! }
+[?25l[2K[1G[36m?[39m [1mWould you like to help improve Storybook by sending anonymous crash reports?[22m [90m›[39m [90m(Y/n)[39m<s> [webpack.Progress] 10% building import loader ./node_modules/babel-loader/lib/index.js
 <s> [webpack.Progress] 10% building 0/1 entries 1/1 dependencies 0/1 modules
 <s> [webpack.Progress] 10% building 0/1 entries 1/2 dependencies 0/1 modules
-<s> [webpack.Progress] 19% building import loader ./node_modules/@storybook/mdx2-csf/loader.js
-<s> [webpack.Progress] 19% building 0/1 entries 32/97 dependencies 5/28 modules
+<s> [webpack.Progress] 17% building import loader ./node_modules/@storybook/mdx2-csf/loader.js
+<s> [webpack.Progress] 17% building 0/1 entries 30/93 dependencies 4/28 modules
 <s> [webpack.Progress] 17% building import loader ./node_modules/unplugin/dist/webpack/loaders/transform.js
 <s> [webpack.Progress] 17% building import loader ./node_modules/@storybook/source-loader/dist/index.js
-<s> [webpack.Progress] 17% building 0/1 entries 95/162 dependencies 8/58 modules
-<s> [webpack.Progress] 39% building 0/1 entries 400/468 dependencies 87/165 modules
-<s> [webpack.Progress] 25% building import loader ./node_modules/style-loader/dist/cjs.js
-<s> [webpack.Progress] 25% building import loader ./node_modules/css-loader/dist/cjs.js
-<s> [webpack.Progress] 25% building 0/1 entries 597/694 dependencies 93/330 modules
-<s> [webpack.Progress] 24% building 0/1 entries 1300/1343 dependencies 195/764 modules
-<s> [webpack.Progress] 31% building 0/1 entries 2600/2657 dependencies 538/1382 modules
-<s> [webpack.Progress] 65% building 1/1 entries 4063/4063 dependencies 1558/1558 modules
+<s> [webpack.Progress] 17% building 0/1 entries 86/164 dependencies 7/55 modules
+<s> [webpack.Progress] 31% building import loader ./node_modules/style-loader/dist/cjs.js
+<s> [webpack.Progress] 31% building import loader ./node_modules/css-loader/dist/cjs.js
+<s> [webpack.Progress] 31% building 0/1 entries 460/527 dependencies 81/203 modules
+<s> [webpack.Progress] 26% building 0/1 entries 1400/1444 dependencies 236/776 modules
+<s> [webpack.Progress] 34% building 0/1 entries 2900/2959 dependencies 634/1395 modules
+<s> [webpack.Progress] 65% building 1/1 entries 4065/4065 dependencies 1559/1559 modules
 <s> [webpack.Progress] 65% building
 <s> [webpack.Progress] 69% building finish
 <s> [webpack.Progress] 69% building finish
@@ -222,10 +280,10 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 92% sealing asset processing TerserPlugin
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.a298fc1b.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.a298fc1b.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.3cc2f15b.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.3cc2f15b.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.3c11aa69.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.3c11aa69.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.c288ded4.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.c288ded4.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin colors-mdx.d97c16a8.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin colors-mdx.d97c16a8.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin designers-mdx.8f8a6165.iframe.bundle.js generate SourceMap
@@ -256,8 +314,10 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Headers-stories.af848dfb.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Inputs-stories.cca5f4da.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Inputs-stories.cca5f4da.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Links-stories.5f350616.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Links-stories.5f350616.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Labels-stories.ea9c6139.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Labels-stories.ea9c6139.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Links-stories.887c31f3.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Links-stories.887c31f3.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin MenuButtons-stories.6c10be5a.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin MenuButtons-stories.6c10be5a.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin Menus-stories.ec10c563.iframe.bundle.js generate SourceMap
@@ -373,10 +433,10 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.2ae53655.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.2ae53655.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.ab8e5c93.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.ab8e5c93.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.27cc62ae.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.27cc62ae.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.568f2caf.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.568f2caf.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin colors-mdx.e2f2c76e.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin colors-mdx.e2f2c76e.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin designers-mdx.d1d68ae1.iframe.bundle.js generate SourceMap
@@ -407,6 +467,8 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Headers-stories.89ff10ef.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Inputs-stories.9e823065.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Inputs-stories.9e823065.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Labels-stories.a3f9aa5a.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Labels-stories.a3f9aa5a.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Links-stories.9704a92e.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin Links-stories.9704a92e.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin MenuButtons-stories.8929ff19.iframe.bundle.js generate SourceMap
@@ -539,13 +601,12 @@ WARN   1582.343f22ad.iframe.bundle.js (664 KiB)
 WARN   2442.677d4db2.iframe.bundle.js (789 KiB)
 WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
 WARN Entrypoints:
-WARN   main (808 KiB)
-WARN       runtime~main.ab8e5c93.iframe.bundle.js
+WARN   main (809 KiB)
+WARN       runtime~main.568f2caf.iframe.bundle.js
 WARN       2442.677d4db2.iframe.bundle.js
-WARN       main.2ae53655.iframe.bundle.js
+WARN       main.27cc62ae.iframe.bundle.js
 WARN 
 <s> [webpack.Progress] 99% cache shutdown
 <s> [webpack.Progress] 99% cache shutdown
 <s> [webpack.Progress] 100% 
 
-info => Output directory: /var/folders/qp/4w0ndxsx53qgt5zs5qw93tc40000gp/T/chromatic--49416-e2PAAoqmjvqQ
