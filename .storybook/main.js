@@ -12,6 +12,9 @@ const config = {
     name: "@storybook/react-webpack5",
     options: {},
   },
+  features: {
+    buildStoriesJson: true
+  },
   docs: {
     autodocs: "tag",
   },
