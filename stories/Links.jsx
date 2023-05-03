@@ -19,10 +19,10 @@ export const Links = ({}) => {
   return (
     <div className={styles.root}>
     This is an{" "}
-    <Link href="https://www.bing.com" inline>
+    <Link href="https://www.netdocuments.com" inline>
       inline link
     </Link>{" "}
-    used alongside other text
+    used within text
   </div>
    );
 };
