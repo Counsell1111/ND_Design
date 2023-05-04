@@ -14,8 +14,8 @@ import {
  } from "@fluentui/react-components";
   import { ChevronDown24Regular, List28Filled, Search28Filled } from "@fluentui/react-icons";
   import React from 'react';
-  import PropTypes from 'prop-types';
-  import './global.css';
+import PropTypes from 'prop-types';
+import './global.css';
   
   
   const useStyles = makeStyles({
@@ -41,13 +41,13 @@ import {
   },
   });
   
-  export const Add_Form = (label) => {
+  export const Add_Form = ({ addin_head, label }) => {
     const styles = useStyles();
     return (
       <div className={styles.root}>
   <div className="addin_form">
   <div className="addin_head">
-  <Subtitle1 align="start">{label}</Subtitle1>
+  <Subtitle1 align="start">{addin_head}</Subtitle1>
   </div>
 
   <div className="addin_foot">
