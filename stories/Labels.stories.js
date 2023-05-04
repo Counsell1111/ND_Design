@@ -12,8 +12,10 @@ export default {
 
 export const Primary = {
     args: {
-        label: 'Default Button',
+        label: 'Default Label',
         size:'medium',
         weight: 'regular',
+        disabled: '',
+        required: '',
       },
 };
