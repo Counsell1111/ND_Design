@@ -6,6 +6,9 @@ import { FluentProvider, teamsLightTheme } from '@fluentui/react-components';
 
 const preview = {
   parameters: {
+    parameters: {
+      layout: 'centered',
+    },
     actions: { argTypesRegex: '^on[A-Z].*' },
     controls: {
       matchers: {
