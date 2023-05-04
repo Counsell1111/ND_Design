@@ -25,7 +25,7 @@ import './global.css';
       top: "0px",
       left: "0px",
       right: "0px",
-      height:"32px",
+      height:"500px",
       display: "flex",
       flexDirection: "column",
       ...shorthands.gap("2px"),
