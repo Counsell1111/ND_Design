@@ -20,7 +20,7 @@ export const Primary = {
 
 export const Subtle = {
     args: {
-        label: 'Default Link',
+        label: 'Subtle Link',
         appearance: 'subtle',
         disabled: '',
       },
@@ -28,7 +28,7 @@ export const Subtle = {
 
 export const Disabled = {
     args: {
-        label: 'Default Link',
+        label: 'Disabled Link',
         appearance: 'default',
         disabled: 'disabled',
       },
