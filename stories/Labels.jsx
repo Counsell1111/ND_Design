@@ -18,16 +18,21 @@ export const Labels = ({}) => {
     const styles = useStyles();
   return (
     <div className={styles.root}>
-      <Label size="small">Small</Label>
+      <Label 
+              weight={weight}
+              size={size}
+              >{label}</Label>
   </div>
    );
 };
 
 
 Labels.propTypes = {
-
+    size: PropTypes.oneOf(['small', 'medium', 'large']),
+    weight: PropTypes.oneOf(['regular', 'semibold']),
   };
   
 Labels.defaultProps = {
-
+    size: 'medium',
+    weight: 'regular',
   };

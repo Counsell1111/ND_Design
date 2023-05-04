@@ -33,13 +33,11 @@ export const Links = ({ disabled, size, appearance, label }) => {
 
 
 Links.propTypes = {
-    size: PropTypes.oneOf(['small', 'medium', 'large']),
     appearance: PropTypes.oneOf(['subtle', 'default']),
     disabled: PropTypes.oneOf([ 'disabled', '']),
   };
   
 Links.defaultProps = {
-    size: 'medium',
     appearance: '',
     disabled: '',
   };

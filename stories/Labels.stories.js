@@ -5,11 +5,15 @@ export default {
   component: Labels,
   tags: ['autodocs'],
   argTypes: {
-  
+    weight: { control: 'inline-radio', options: ['regular', 'semibold'] },
+    size: { control: 'inline-radio', options: ['small', 'medium', 'large'] } 
   },
 };
 
 export const Primary = {
     args: {
+        label: 'Default Button',
+        size:'medium',
+        weight: 'regular',
       },
 };

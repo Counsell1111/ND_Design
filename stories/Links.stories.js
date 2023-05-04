@@ -5,8 +5,7 @@ export default {
   component: Links,
   tags: ['autodocs'],
   argTypes: {
-    appearance: { control: 'inline-radio', options: ['subtle', 'default'] },
-    size: { control: 'inline-radio', options: ['small', 'medium', 'large'] },    
+    appearance: { control: 'inline-radio', options: ['subtle', 'default'] },  
     disabled: { control: 'boolean', options: [ 'disabled', ''] }  
   },
 };
@@ -14,7 +13,6 @@ export default {
 export const Primary = {
     args: {
         label: 'Default Button',
-        size:'medium',
         appearance: 'default',
         disabled: '',
       },
