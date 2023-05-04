@@ -14,13 +14,17 @@ const useStyles = makeStyles({
     },
   });
 
-export const Links = ({}) => {
+export const Links = ({ disabled, size, appearance, label }) => {
     const styles = useStyles();
   return (
     <div className={styles.root}>
     This is most certainly an{" "}
-    <Link href="https://www.netdocuments.com" inline>
-      inline link
+    <Link 
+        appearance={appearance}
+        size={size}
+        {...{disabled}}
+    href="https://www.netdocuments.com" inline>
+      {label}
     </Link>{" "}
     used within text
   </div>
@@ -29,9 +33,13 @@ export const Links = ({}) => {
 
 
 Links.propTypes = {
-
+    size: PropTypes.oneOf(['small', 'medium', 'large']),
+    appearance: PropTypes.oneOf(['subtle', 'default']),
+    disabled: PropTypes.oneOf([ 'disabled', '']),
   };
   
 Links.defaultProps = {
-
+    size: 'medium',
+    appearance: '',
+    disabled: '',
   };
