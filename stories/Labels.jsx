@@ -14,7 +14,7 @@ const useStyles = makeStyles({
     },
   });
 
-export const Labels = ({}) => {
+export const Labels = ({weight, size, label}) => {
     const styles = useStyles();
   return (
     <div className={styles.root}>
