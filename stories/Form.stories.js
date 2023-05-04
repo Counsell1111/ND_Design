@@ -12,6 +12,5 @@ export default {
 export const Primary = {
   args: {
     label: 'Default Button',
-    addin_head: 'Addin Header',
   },
 };

@@ -47,7 +47,7 @@ import {
       <div className={styles.root}>
   <div className="addin_form">
   <div className="addin_head">
-  <Subtitle1 align="start"></Subtitle1>
+  <Subtitle1 align="start">{label}</Subtitle1>
   </div>
 
   <div className="addin_foot">
