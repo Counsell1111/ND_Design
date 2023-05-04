@@ -51,7 +51,7 @@ import './global.css';
   </div>
 
   <div className="addin_foot">
-  <Button fluid="true">{addin_button}</Button>
+  <Button styles={{width:"100%",}}>{addin_button}</Button>
 </div>
   </div>
   </div>
