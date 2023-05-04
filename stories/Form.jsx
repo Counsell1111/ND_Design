@@ -1,5 +1,6 @@
 import {  
     shorthands,
+    Field,
     Input,
     Button,
     Text,
@@ -48,6 +49,14 @@ import './global.css';
   <div className="addin_form">
   <div className="addin_head">
   <Subtitle1 align="start">{addin_head}</Subtitle1>
+  </div>
+
+  <div className="addin_body">
+  <Field
+  >
+    <Input 
+         />
+  </Field>
   </div>
 
   <div className="addin_foot">

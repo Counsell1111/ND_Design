@@ -77,6 +77,11 @@ max-width: 50%;
 .addin_head{
  height:44px;
  border-bottom: 1px solid #E7E8E8;
+ padding: 20px;
+}
+
+.addin_body{
+  padding: 20px;
 }
 
 .addin_foot{
@@ -86,4 +91,5 @@ max-width: 50%;
   right: 0px;
   border-top: 1px solid #E7E8E8;
   background: #FAFAFA;
+  padding: 20px;
 }
