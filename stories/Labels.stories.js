@@ -78,6 +78,6 @@ export const Required = {
         size:'medium',
         weight: 'regular',
         disabled: '',
-        required: 'required',
+        required: 'true',
       },
 };
