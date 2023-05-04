@@ -43,7 +43,13 @@ import {
     return (
       <div className={styles.root}>
   <div className="addin_form">
+  <div className="addin_head">
 
+  </div>
+
+  <div className="addin_foot">
+  <Button>{label}</Button>
+</div>
   </div>
   </div>
      );
