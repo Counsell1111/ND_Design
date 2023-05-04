@@ -41,7 +41,7 @@ import './global.css';
   },
   });
   
-  export const Add_Form = ({ addin_head, label }) => {
+  export const Add_Form = ({ addin_head, addin_button }) => {
     const styles = useStyles();
     return (
       <div className={styles.root}>
@@ -51,7 +51,7 @@ import './global.css';
   </div>
 
   <div className="addin_foot">
-  <Button>{label}</Button>
+  <Button fluid="true">{addin_button}</Button>
 </div>
   </div>
   </div>
