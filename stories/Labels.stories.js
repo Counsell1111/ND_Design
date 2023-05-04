@@ -74,10 +74,10 @@ export const Disabled = {
 
 export const Required = {
     args: {
-        label: 'Required Label',
+        label: 'Label with custom required',
         size:'medium',
         weight: 'regular',
         disabled: '',
-        required: 'true',
+        required: 'required',
       },
 };
