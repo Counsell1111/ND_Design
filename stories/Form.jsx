@@ -41,13 +41,13 @@ import {
   },
   });
   
-  export const Add_Form = (addin_head, label) => {
+  export const Add_Form = (label) => {
     const styles = useStyles();
     return (
       <div className={styles.root}>
   <div className="addin_form">
   <div className="addin_head">
-  <Subtitle1 align="start">{addin_head}</Subtitle1>
+  <Subtitle1 align="start"></Subtitle1>
   </div>
 
   <div className="addin_foot">
