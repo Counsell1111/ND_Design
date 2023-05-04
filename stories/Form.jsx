@@ -2,6 +2,8 @@ import {
     shorthands,
     Input,
     Button,
+    Text,
+    Subtitle1,
     Persona, Menu, MenuItem,
     MenuList,
     MenuPopover,
@@ -38,13 +40,13 @@ import {
   },
   });
   
-  export const Add_Form = () => {
+  export const Add_Form = (addin_head, label) => {
     const styles = useStyles();
     return (
       <div className={styles.root}>
   <div className="addin_form">
   <div className="addin_head">
-
+  <Subtitle1 align="start">{addin_head}</Subtitle1>
   </div>
 
   <div className="addin_foot">
