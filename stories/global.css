@@ -99,3 +99,8 @@ max-width: 50%;
   background: #FAFAFA;
   padding: 20px;
 }
+
+.addin_button{
+  min-width: 100%;
+  width: 100%;
+}
