@@ -3,6 +3,7 @@ import {
     Field,
     Input,
     Button,
+    Link,
     Text,
     Subtitle1,
     Persona, Menu, MenuItem,
@@ -44,8 +45,9 @@ import './global.css';
 
   const MicButton: React.FC<ButtonProps> = (props) => {
     return (
-      <Button
-        appearance="transparent" >Copy Me</Button>
+        <Link>
+        Copy Me
+      </Link>
     );
   };
   
