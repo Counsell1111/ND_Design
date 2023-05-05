@@ -49,6 +49,20 @@ import './global.css';
   <div className="addin_form">
   <div className="addin_head">
   <Subtitle1 align="start">{addin_head}</Subtitle1>
+  <Menu>
+    <MenuTrigger disableButtonEnhancement>
+    <Button size="large" icon={<Search28Filled />} />
+    </MenuTrigger>
+
+    <MenuPopover>
+      <MenuList>
+        <MenuItem>New </MenuItem>
+        <MenuItem>New Window</MenuItem>
+        <MenuItem disabled>Open File</MenuItem>
+        <MenuItem>Open Folder</MenuItem>
+      </MenuList>
+    </MenuPopover>
+  </Menu>
   </div>
 
   <div className="addin_body">
