@@ -82,6 +82,12 @@ max-width: 50%;
 .addin_head{
  border-bottom: 1px solid #E7E8E8;
  padding: 20px;
+ display: flex;
+ width: 100%;
+}
+
+.addin_header_button{
+margin-left: auto;
 }
 
 .addin_body{

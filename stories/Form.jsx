@@ -51,7 +51,7 @@ import './global.css';
   <Subtitle1 align="start">{addin_head}</Subtitle1>
   <Menu>
     <MenuTrigger disableButtonEnhancement>
-    <Button size="large" appearance="subtle" align="end" icon={<MoreVertical28Filled />} />
+    <Button size="large" appearance="subtle" className="addin_header_button" icon={<MoreVertical28Filled />} />
     </MenuTrigger>
 
     <MenuPopover>
