@@ -79,8 +79,12 @@ import './global.css';
 
   <div className="addin_body">
   <Field
+     label="To"
+     validationState="none"
+     validationMessage="Note that each recipient receives a unique email"
+     required
   >
-     <Input placeholder="Search Mhub" size="large" contentAfter={<MicButton aria-label="Enter by voice" />} appearance="outline"/>
+   <Input placeholder="Search Mhub" size="large" contentAfter={<MicButton aria-label="Enter by voice" />} appearance="outline"/>
   </Field>
   </div>
 
