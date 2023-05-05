@@ -80,14 +80,13 @@ max-width: 50%;
 }
 
 .addin_head{
- height:44px;
  border-bottom: 1px solid #E7E8E8;
  padding: 20px;
 }
 
 .addin_body{
   padding: 20px;
-  height: 400px;
+  height: 700px;
 }
 
 .addin_foot{
