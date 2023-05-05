@@ -5,6 +5,7 @@ import {
     Button,
     Link,
     Text,
+    Textarea,
     Subtitle1,
     Persona, Menu, MenuItem,
     MenuList,
@@ -92,6 +93,16 @@ import './global.css';
      required
   >
    <Input placeholder="Morgan Brady shared a secure link to “Draft Doc” wit..." size="large" appearance="outline"/>
+  </Field>
+
+  <Field label="Default Textarea">
+    <Textarea placeholder="Access the document “Draft Doc” v2 of 3 by clicking the link embedded in this email." />
+    <div className="text_foot">
+    <Button size="large" appearance="subtle" icon={<MoreVertical28Filled />} />
+      <div>Draft Doc.doc v2 of 3</div>
+      <Link>
+        Copy Me
+      </Link></div>
   </Field>
   </div>
 
