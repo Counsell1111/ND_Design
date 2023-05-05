@@ -41,6 +41,13 @@ import './global.css';
     rowGap: "15px",
   },
   });
+
+  const MicButton: React.FC<ButtonProps> = (props) => {
+    return (
+      <Button
+        appearance="transparent" >Copy Me</Button>
+    );
+  };
   
   export const Add_Form = ({ addin_head, addin_button }) => {
     const styles = useStyles();
@@ -50,7 +57,7 @@ import './global.css';
   <div className="addin_head">
   <Subtitle1 align="start">{addin_head}</Subtitle1>
   <Menu>
-    
+
     <div className="addin_header_button">
     <MenuTrigger disableButtonEnhancement>
     <Button size="large" appearance="subtle" icon={<MoreVertical28Filled />} />
@@ -71,8 +78,7 @@ import './global.css';
   <div className="addin_body">
   <Field
   >
-    <Input 
-         />
+     <Input placeholder="Search Mhub" size="large" contentAfter={<MicButton aria-label="Enter by voice" />} appearance="outline"/>
   </Field>
   </div>
 
