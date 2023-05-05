@@ -50,9 +50,12 @@ import './global.css';
   <div className="addin_head">
   <Subtitle1 align="start">{addin_head}</Subtitle1>
   <Menu>
+    
+    <div className="addin_header_button">
     <MenuTrigger disableButtonEnhancement>
-    <Button size="large" appearance="subtle" className="addin_header_button" icon={<MoreVertical28Filled />} />
+    <Button size="large" appearance="subtle" icon={<MoreVertical28Filled />} />
     </MenuTrigger>
+    </div>
 
     <MenuPopover>
       <MenuList>

@@ -88,6 +88,8 @@ max-width: 50%;
 
 .addin_header_button{
 margin-left: auto;
+max-width: 50%;
+min-width: 50px;
 }
 
 .addin_body{
