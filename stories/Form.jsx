@@ -13,7 +13,7 @@ import {
     ButtonProps,
     MenuButtonProps, makeStyles
  } from "@fluentui/react-components";
-  import { ChevronDown24Regular, List28Filled, Search28Filled } from "@fluentui/react-icons";
+  import { MoreVertical28Filled } from "@fluentui/react-icons";
   import React from 'react';
 import PropTypes from 'prop-types';
 import './global.css';
@@ -51,7 +51,7 @@ import './global.css';
   <Subtitle1 align="start">{addin_head}</Subtitle1>
   <Menu>
     <MenuTrigger disableButtonEnhancement>
-    <Button size="large" icon={<Search28Filled />} />
+    <Button size="large" appearance="subtle" align="end" icon={<MoreVertical28Filled />} />
     </MenuTrigger>
 
     <MenuPopover>
