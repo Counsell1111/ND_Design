@@ -129,6 +129,7 @@ min-width: 50px;
 }
 
 .text_foot{
+  position: relative;
   background: #EEEEEE;
   display: flex;
   padding: 0px;
