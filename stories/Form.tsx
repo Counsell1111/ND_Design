@@ -8,6 +8,7 @@ import {
     Textarea,
     Checkbox,
     Subtitle1,
+    Body1,
     Persona, Menu, MenuItem,
     MenuList,
     MenuPopover,
@@ -101,7 +102,7 @@ import './global.css';
     <Textarea rows={5} placeholder="Access the document “Draft Doc” v2 of 3 by clicking the link embedded in this email." />
     <div className="text_foot">
     <Button size="large" appearance="subtle" icon={<Link28Filled />} />
-      <div>Draft Doc.doc v2 of 3</div>
+      <Body1>Draft Doc.doc v2 of 3</Body1>
       <Link>
         Copy Me
       </Link></div>
