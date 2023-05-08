@@ -131,6 +131,11 @@ min-width: 50px;
 .text_foot{
   background: #EEEEEE;
   display: flex;
+  padding: 10px;
+}
+
+.doc_foot{
+  height: 20px;
 }
 
 .hr_space{
