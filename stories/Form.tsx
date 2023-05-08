@@ -85,14 +85,14 @@ import './global.css';
      validationMessage="Note that each recipient receives a unique email"
      required
   >
-   <Input placeholder="To" size="large" contentAfter={<MicButton aria-label="Enter by voice" />} appearance="outline"/>
+   <Input placeholder="To" size="medium" contentAfter={<MicButton aria-label="Enter by voice" />} appearance="outline"/>
   </Field>
 
   <Field
      label="Subject"
      required
   >
-   <Input placeholder="Morgan Brady shared a secure link to “Draft Doc” wit..." size="large" appearance="outline"/>
+   <Input placeholder="Morgan Brady shared a secure link to “Draft Doc” wit..." size="medium" appearance="outline"/>
   </Field>
 
   <Field label="Default Textarea">
