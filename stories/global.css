@@ -1,3 +1,15 @@
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  outline: none;
+  border: none;
+} 
+
 .head_prim{
   height:60px;
   width:100%;
@@ -90,8 +102,8 @@ max-width: 50%;
 
 .addin_header_button{
 position: absolute;
-right: 0px;
-top:0px;
+right: 10px;
+top:10px;
 max-width: 50%;
 min-width: 50px;
 }
@@ -108,7 +120,7 @@ min-width: 50px;
   right: 0px;
   border-top: 1px solid #E7E8E8;
   background: #FAFAFA;
-  padding: 20px;
+  padding: 10px;
 }
 
 .addin_button{
@@ -122,5 +134,5 @@ min-width: 50px;
 }
 
 .hr_space{
-  height: 30px;
+  height: 10px;
 }
