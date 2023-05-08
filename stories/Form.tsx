@@ -17,7 +17,7 @@ import {
     ButtonProps,
     MenuButtonProps, makeStyles
  } from "@fluentui/react-components";
-  import { MoreVertical28Filled, Link28Filled } from "@fluentui/react-icons";
+  import { MoreVertical28Filled, Link28Filled, DocumentBulletList24Regular } from "@fluentui/react-icons";
   import React from 'react';
 import PropTypes from 'prop-types';
 import './global.css';
@@ -102,10 +102,10 @@ import './global.css';
     <Textarea rows={5} placeholder="Access the document “Draft Doc” v2 of 3 by clicking the link embedded in this email." />
     <div className="text_foot">
     <Button size="large" appearance="subtle" icon={<Link28Filled />} />
-      <Body1>Draft Doc.doc v2 of 3</Body1>
-      <Link>
+    <div className="text_foot"><DocumentBulletList24Regular /><Body1>Draft Doc.doc v2 of 3</Body1></div>
+      <Text align="end"><Link>
       Add Receipt
-      </Link></div>
+      </Link></Text></div>
   </Field>
   <hr className="hr_space"></hr>
   <Checkbox 
