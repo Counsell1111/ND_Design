@@ -96,11 +96,11 @@ import './global.css';
      label="Subject"
      required
   >
-   <Input placeholder="Morgan Brady shared a secure link to “Draft Doc” wit..." size="medium" appearance="outline"/>
+   <Input placeholder="Enter secure link subject" size="medium" appearance="outline"/>
   </Field>
 <hr className="hr_space"></hr>
   <Field>
-    <Textarea rows={5} placeholder="Access the document “Draft Doc” v2 of 3 by clicking the link embedded in this email." />
+    <Textarea rows={5} placeholder="Enter secure link body" />
     <div className="text_foot">
     <Button size="large" appearance="subtle" icon={<Link28Filled />} />
     <div className="doc_foot"><DocumentBulletList24Regular /><Label>Draft Doc.doc v2 of 3</Label></div>
