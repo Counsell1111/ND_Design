@@ -81,9 +81,11 @@ max-width: 50%;
 
 .addin_head{
  border-bottom: 1px solid #E7E8E8;
- padding: 20px;
+ padding: 10px;
  display: flex;
  width: 100%;
+ max-height: 50px;
+ overflow: hidden;
 }
 
 .addin_header_button{
@@ -117,4 +119,8 @@ min-width: 50px;
 .text_foot{
   background: #EEEEEE;
   display: flex;
+}
+
+.hr_space{
+  height: 30px;
 }
