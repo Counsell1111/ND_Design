@@ -6,6 +6,7 @@ import {
     Link,
     Text,
     Textarea,
+    Checkbox,
     Subtitle1,
     Persona, Menu, MenuItem,
     MenuList,
@@ -104,6 +105,15 @@ import './global.css';
         Copy Me
       </Link></div>
   </Field>
+
+
+  <Checkbox 
+     label="Password protect link access"
+/>
+  <Checkbox 
+     label="Allow linked documents to be downloaded"
+/>
+
   </div>
 
   <div className="addin_foot">
