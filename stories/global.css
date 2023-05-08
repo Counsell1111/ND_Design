@@ -131,7 +131,8 @@ min-width: 50px;
 .text_foot{
   background: #EEEEEE;
   display: flex;
-  padding: 10px;
+  padding: 0px;
+  border-radius: 4px;
 }
 
 .doc_foot{
