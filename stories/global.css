@@ -102,8 +102,8 @@ max-width: 50%;
 
 .addin_header_button{
 position: absolute;
-right: 10px;
-top:10px;
+right: 5px;
+top:5px;
 max-width: 50%;
 min-width: 50px;
 }
@@ -134,5 +134,5 @@ min-width: 50px;
 }
 
 .hr_space{
-  height: 10px;
+  height: 0px;
 }
