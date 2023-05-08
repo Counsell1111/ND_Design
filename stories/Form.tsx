@@ -106,8 +106,7 @@ import './global.css';
         Copy Me
       </Link></div>
   </Field>
-
-
+  
   <Checkbox 
      label="Password protect link access"
 />
