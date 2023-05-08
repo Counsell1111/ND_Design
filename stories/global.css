@@ -137,14 +137,15 @@ min-width: 50px;
 }
 
 .doc_foot{
+  padding: 7px;
   height: 20px;
 }
 
 .doc_link{
   height: 20px;
   position: absolute;
-  right:20px;
-  top:20px;
+  right:10px;
+  top:10px;
 }
 
 .hr_space{
