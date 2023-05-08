@@ -58,7 +58,7 @@ import './global.css';
     return (
       <div className={styles.root}>
   <div className="addin_form">
-    
+
   <div className="addin_head">
   <Subtitle1 align="start">{addin_head}</Subtitle1>
   <Menu>
@@ -98,7 +98,7 @@ import './global.css';
   </Field>
 <hr className="hr_space"></hr>
   <Field>
-    <Textarea placeholder="Access the document “Draft Doc” v2 of 3 by clicking the link embedded in this email." />
+    <Textarea rows={5} placeholder="Access the document “Draft Doc” v2 of 3 by clicking the link embedded in this email." />
     <div className="text_foot">
     <Button size="large" appearance="subtle" icon={<Link28Filled />} />
       <div>Draft Doc.doc v2 of 3</div>
