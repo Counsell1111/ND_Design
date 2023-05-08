@@ -142,7 +142,8 @@ min-width: 50px;
 .doc_link{
   height: 20px;
   position: absolute;
-  right:5px;
+  right:20px;
+  top:20px;
 }
 
 .hr_space{
