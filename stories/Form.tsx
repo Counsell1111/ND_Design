@@ -96,7 +96,7 @@ import './global.css';
   </Field>
 
   <Field label="Default Textarea">
-    <Textarea placeholder="Access the document “Draft Doc” v2 of 3 by clicking the link embedded in this email." />
+    <Textarea value="6" placeholder="Access the document “Draft Doc” v2 of 3 by clicking the link embedded in this email." />
     <div className="text_foot">
     <Button size="large" appearance="subtle" icon={<Link28Filled />} />
       <div>Draft Doc.doc v2 of 3</div>
