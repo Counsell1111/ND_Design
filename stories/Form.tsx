@@ -104,15 +104,15 @@ import './global.css';
     <Button size="large" appearance="subtle" icon={<Link28Filled />} />
       <Body1>Draft Doc.doc v2 of 3</Body1>
       <Link>
-        Copy Me
+      Add Receipt
       </Link></div>
   </Field>
-  
+  <hr className="hr_space"></hr>
   <Checkbox 
-     label="Password protect link access"
+     size="large" label="Password protect link access"
 />
   <Checkbox 
-     label="Allow linked documents to be downloaded"
+     size="large" label="Allow linked documents to be downloaded"
 />
 
   </div>
