@@ -103,9 +103,10 @@ import './global.css';
     <div className="text_foot">
     <Button size="large" appearance="subtle" icon={<Link28Filled />} />
     <div className="doc_foot"><DocumentBulletList24Regular /><Body1>Draft Doc.doc v2 of 3</Body1></div>
-      <Text align="end"><Link>
+      <div className="doc_link"><Link>
       Add Receipt
-      </Link></Text></div>
+      </Link></div>
+      </div>
   </Field>
   <hr className="hr_space"></hr>
   <Checkbox 
