@@ -15,7 +15,7 @@ import {
     ButtonProps,
     MenuButtonProps, makeStyles
  } from "@fluentui/react-components";
-  import { MoreVertical28Filled } from "@fluentui/react-icons";
+  import { MoreVertical28Filled, Link28Filled } from "@fluentui/react-icons";
   import React from 'react';
 import PropTypes from 'prop-types';
 import './global.css';
@@ -98,7 +98,7 @@ import './global.css';
   <Field label="Default Textarea">
     <Textarea placeholder="Access the document “Draft Doc” v2 of 3 by clicking the link embedded in this email." />
     <div className="text_foot">
-    <Button size="large" appearance="subtle" icon={<MoreVertical28Filled />} />
+    <Button size="large" appearance="subtle" icon={<Link28Filled />} />
       <div>Draft Doc.doc v2 of 3</div>
       <Link>
         Copy Me
