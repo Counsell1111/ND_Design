@@ -9,6 +9,7 @@ import {
     Checkbox,
     Subtitle1,
     Body1,
+    Label,
     Persona, Menu, MenuItem,
     MenuList,
     MenuPopover,
@@ -102,7 +103,7 @@ import './global.css';
     <Textarea rows={5} placeholder="Access the document “Draft Doc” v2 of 3 by clicking the link embedded in this email." />
     <div className="text_foot">
     <Button size="large" appearance="subtle" icon={<Link28Filled />} />
-    <div className="doc_foot"><DocumentBulletList24Regular /><p>Draft Doc.doc v2 of 3</p></div>
+    <div className="doc_foot"><DocumentBulletList24Regular /><Label>Draft Doc.doc v2 of 3</Label></div>
       <div className="doc_link"><Link>
       Add Receipt
       </Link></div>
