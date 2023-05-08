@@ -113,3 +113,8 @@ min-width: 50px;
   min-width: 100%;
   width: 100%;
 }
+
+.text_foot{
+  background: #EEEEEE;
+  display: flex;
+}
