@@ -1,4 +1,4 @@
-import { Avatar } from "@fluentui/react-components";
+import { makeStyles, Avatar } from "@fluentui/react-components";
 import React from 'react';
 import PropTypes from 'prop-types';
 
