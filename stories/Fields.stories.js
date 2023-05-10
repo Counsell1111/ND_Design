@@ -8,7 +8,8 @@ export default {
     size: { control: 'inline-radio', options: ['small', 'medium', 'large'] }, 
     validate_state: { control: 'inline-radio', options: ['none', 'success', 'warning', 'error'] },   
     disabled: { control: 'boolean', options: [ 'disabled', ''] },   
-    required: { control: 'boolean', options: [ 'required', ''] }   
+    required: { control: 'boolean', options: [ 'required', ''] },
+    contentAfter: { control: 'boolean', options: [ '<link>Copy Me</link>','' ]}
   },
 };
 
@@ -99,4 +100,16 @@ export const Medium = {
         required: '',
     },
   };
+
+  export const Content={
+    args:{
+      label: 'Field Placeholder',
+      size:'medium',
+      validate_text: '',
+      validate_state: 'none',
+      disabled: '',
+      required: '',
+      contentAfter: '<link>Copy Me</link>',
+    }
+  }
   

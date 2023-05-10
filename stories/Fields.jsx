@@ -17,7 +17,7 @@ import {
     },
   });
   
-  export const fields = ({ disabled, required, placeholder, size, label, validate_state, validate_text }) => {
+  export const fields = ({ contentAfter, disabled, required, placeholder, size, label, validate_state, validate_text }) => {
       const styles = useStyles();
       return (
           <div className={styles.root}>
@@ -31,6 +31,7 @@ import {
     <Input 
           placeholder={label}
           size={size}
+          contentAfter={contentAfter}
          {...{disabled}}
          />
   </Field>
@@ -44,6 +45,7 @@ import {
     validate_state: PropTypes.oneOf(['none', 'success', 'warning', 'error']),
     disabled: PropTypes.oneOf([ 'disabled', '']),
     required: PropTypes.oneOf(['required', '']),
+    contentAfter: PropTypes.oneOf(['<link>Copy Me</link>',''])
   };
   
   fields.defaultProps = {
@@ -51,5 +53,6 @@ import {
     validate_state: 'none',
     disabled: '',
     required: '',
+    contentAfter: '',
   };
   
