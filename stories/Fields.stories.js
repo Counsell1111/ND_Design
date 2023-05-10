@@ -109,7 +109,7 @@ export const Medium = {
     },
   };
 
-  export const Content={
+  export const ContentAfter = {
     args:{
       label: 'Field Placeholder',
       size:'medium',
