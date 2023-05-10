@@ -9,7 +9,7 @@ export default {
     validate_state: { control: 'inline-radio', options: ['none', 'success', 'warning', 'error'] },   
     disabled: { control: 'boolean', options: [ 'disabled', ''] },   
     required: { control: 'boolean', options: [ 'required', ''] },
-    contenta_after: { control: 'boolean', options: [ '<link>Copy Me</link>','' ]}
+    contenta_after: { control: 'boolean', options: [ 'Copy Me','' ]}
   },
 };
 
@@ -117,7 +117,7 @@ export const Medium = {
       validate_state: 'none',
       disabled: '',
       required: '',
-      contenta_after: '<link>Copy Me</link>',
+      contenta_after: 'Copy Me',
     }
   }
   

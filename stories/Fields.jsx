@@ -31,7 +31,7 @@ import {
     <Input 
           placeholder={label}
           size={size}
-          contentAfter={contenta_after}
+          contentAfter={<link>{contenta_after}</link>}
          {...{disabled}}
          />
   </Field>
@@ -45,7 +45,7 @@ import {
     validate_state: PropTypes.oneOf(['none', 'success', 'warning', 'error']),
     disabled: PropTypes.oneOf([ 'disabled', '']),
     required: PropTypes.oneOf(['required', '']),
-    contenta_after: PropTypes.oneOf(['<link>Copy Me</link>',''])
+    contenta_after: PropTypes.oneOf(['Copy Me',''])
   };
   
   fields.defaultProps = {
