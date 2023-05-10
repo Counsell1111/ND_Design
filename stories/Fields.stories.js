@@ -9,7 +9,7 @@ export default {
     validate_state: { control: 'inline-radio', options: ['none', 'success', 'warning', 'error'] },   
     disabled: { control: 'boolean', options: [ 'disabled', ''] },   
     required: { control: 'boolean', options: [ 'required', ''] },
-    contenta_after: { control: 'boolean', options: [ 'Copy Me','' ]}
+    content_after: { control: 'boolean', options: [ 'Copy Me','' ]}
   },
 };
 
@@ -21,7 +21,7 @@ export const Primary = {
       validate_state: 'none',
       disabled: '',
       required: '',
-      contenta_after: '',
+      content_after: '',
   },
 };
 
@@ -33,7 +33,7 @@ export const Small = {
         validate_state: 'none',
         disabled: '',
         required: '',
-        contenta_after: '',
+        content_after: '',
     },
   };
 
@@ -45,7 +45,7 @@ export const Medium = {
         validate_state: 'none',
         disabled: '',
         required: '',
-        contenta_after: '',
+        content_after: '',
     },
   };
   
@@ -57,7 +57,7 @@ export const Medium = {
         validate_state: 'none',
         disabled: '',
         required: '',
-        contenta_after: '',
+        content_after: '',
     },
   };
 
@@ -69,7 +69,7 @@ export const Medium = {
         validate_state: 'success',
         disabled: '',
         required: '',
-        contenta_after: '',
+        content_after: '',
     },
   };
 
@@ -81,7 +81,7 @@ export const Medium = {
         validate_state: 'warning',
         disabled: '',
         required: '',
-        contenta_after: '',
+        content_after: '',
     },
   };
 
@@ -93,7 +93,7 @@ export const Medium = {
         validate_state: 'error',
         disabled: '',
         required: '',
-        contenta_after: '',
+        content_after: '',
     },
   };
 
@@ -105,7 +105,7 @@ export const Medium = {
         validate_state: 'none',
         disabled: 'disabled',
         required: '',
-        contenta_after: '',
+        content_after: '',
     },
   };
 
@@ -117,7 +117,7 @@ export const Medium = {
       validate_state: 'none',
       disabled: '',
       required: '',
-      contenta_after: 'Copy Me',
+      content_after: 'Copy Me',
     }
   }
   
