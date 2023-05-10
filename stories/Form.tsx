@@ -95,7 +95,7 @@ import './global.css';
     <Textarea rows={5} placeholder="Enter secure link body" />
     <div className="text_foot">
     <Button size="large" appearance="subtle" icon={<Link28Filled />} />
-    <div className="doc_foot"><DocumentBulletList24Regular /><Label>Draft Doc.doc v2 of 3</Label></div>
+    <div className="doc_foot"><DocumentBulletList24Regular /><Label className="textarea_txt">Draft Doc.doc v2 of 3</Label></div>
       <div className="doc_link"><Link>
       Add Receipt
       </Link></div>
