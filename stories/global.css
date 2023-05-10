@@ -139,11 +139,16 @@ min-width: 50px;
 }
 
 .doc_foot{
-  padding: 3px;
+  padding: 0px;
   height: 20px;
 }
 
-.textarea_txt{
+.doc_ico{
+  height: 20px;
+  padding: 6px;
+}
+
+.doc_txt{
   margin: 0px;
   line-height: 20px;
 }
