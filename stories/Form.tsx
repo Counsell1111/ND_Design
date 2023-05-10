@@ -46,14 +46,6 @@ import './global.css';
     rowGap: "15px",
   },
   });
-
-  const MicButton: React.FC<ButtonProps> = (props) => {
-    return (
-        <Link>
-        Copy Me
-      </Link>
-    );
-  };
   
   export const Add_Form = ({ addin_head, addin_button }) => {
     const styles = useStyles();
@@ -89,7 +81,7 @@ import './global.css';
      validationMessage="Note that each recipient receives a unique email"
      required
   >
-   <Input placeholder="To" size="medium" contentAfter={<MicButton aria-label="Enter by voice" />} appearance="outline"/>
+   <Input placeholder="To" size="medium" contentAfter={<Link>Copy Me</Link>} appearance="outline"/>
   </Field>
   <hr className="hr_space"></hr>
   <Field
