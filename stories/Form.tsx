@@ -91,16 +91,19 @@ import './global.css';
    <Input placeholder="Enter secure link subject" size="medium" appearance="outline"/>
   </Field>
 <hr className="hr_space"></hr>
+
   <Field>
+    
     <Textarea rows={5} placeholder="Enter secure link body" />
+
     <div className="text_foot">
     <Button size="large" appearance="subtle" icon={<Link28Filled />} />
     <div className="doc_foot"><div className="doc_ico"><DocumentBulletList24Regular /></div><Label className="doc_txt">Draft Doc.doc v2 of 3</Label></div>
-      <div className="doc_link"><Link>
-      Add Receipt
-      </Link></div>
+      <div className="doc_link"><Link>Add Receipt</Link></div>
       </div>
+
   </Field>
+
   <hr className="hr_space"></hr>
   <Checkbox 
      size="large" label="Password protect link access"

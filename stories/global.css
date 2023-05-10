@@ -139,14 +139,14 @@ min-width: 50px;
 }
 
 .doc_foot{
-  padding: 0px;
+  padding: 6px;
   height: 20px;
   display: flex;
 }
 
 .doc_ico{
   height: 20px;
-  padding: 6px;
+  padding: 0px;
 }
 
 .doc_txt{
