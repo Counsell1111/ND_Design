@@ -3,6 +3,7 @@ import {
     shorthands,
     Field,
     Input,
+    Link,
     makeStyles,
   } from "@fluentui/react-components";
   import React from 'react';
@@ -17,7 +18,7 @@ import {
     },
   });
   
-  export const fields = ({ contenta_after, disabled, required, placeholder, size, label, validate_state, validate_text }) => {
+  export const fields = ({ content_after, disabled, required, placeholder, size, label, validate_state, validate_text }) => {
       const styles = useStyles();
       return (
           <div className={styles.root}>
@@ -31,7 +32,7 @@ import {
     <Input 
           placeholder={label}
           size={size}
-          contentAfter={<link>{contenta_after}</link>}
+          contentAfter={<Link>{content_after}</Link>}
          {...{disabled}}
          />
   </Field>
@@ -45,7 +46,7 @@ import {
     validate_state: PropTypes.oneOf(['none', 'success', 'warning', 'error']),
     disabled: PropTypes.oneOf([ 'disabled', '']),
     required: PropTypes.oneOf(['required', '']),
-    contenta_after: PropTypes.oneOf(['Copy Me',''])
+    content_after: PropTypes.oneOf(['Copy Me',''])
   };
   
   fields.defaultProps = {
@@ -53,6 +54,6 @@ import {
     validate_state: 'none',
     disabled: '',
     required: '',
-    contenta_after: '',
+    content_after: '',
   };
   
