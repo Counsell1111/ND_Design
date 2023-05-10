@@ -1,10 +1,25 @@
 import {  
     shorthands,
     Field,
+    Input,
+    Button,
+    Link,
+    Text,
     Textarea,
-    makeStyles, } from "@fluentui/react-components";
+    Checkbox,
+    Subtitle1,
+    Body1,
+    Label,
+    Persona, Menu, MenuItem,
+    MenuList,
+    MenuPopover,
+    MenuTrigger,
+    SplitButton,
+    ButtonProps,
+    MenuButtonProps, makeStyles } from "@fluentui/react-components";
 import React from 'react';
 import PropTypes from 'prop-types';
+import './global.css';
 
 const useStyles = makeStyles({
     root: {
@@ -15,24 +30,20 @@ const useStyles = makeStyles({
     },
   });
 
-export const textarea_footer = ({ appearance, disabled, required, placeholder, size, label, validate_state, validate_text }) => {
+export const textarea_footer = ({ }) => {
     const styles = useStyles();
   return (
     <div className={styles.root}>
-  <Field      
-     label={label}
-     size={size}
-     validationState={validate_state}
-     validationMessage={validate_text}
-     {...{required}}
-     >
-    <Textarea  
-            appearance={appearance}
-            resize="vertical"
-            placeholder={label}
-            size={size}
-           {...{disabled}}
-           />
+  <Field>
+    
+    <Textarea rows={5} placeholder="Enter secure link body" />
+
+    <div className="text_foot">
+    <Button size="large" appearance="subtle" icon={<Link28Filled />} />
+    <div className="doc_foot"><div className="doc_ico"><DocumentBulletList24Regular /></div><Label className="doc_txt">Draft Doc.doc v2 of 3</Label></div>
+      <div className="doc_link"><Link>Add Receipt</Link></div>
+      </div>
+
   </Field>
   </div>
    );
