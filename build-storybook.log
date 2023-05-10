@@ -1,11 +1,11 @@
 @storybook/cli v7.0.4
 
-info => Cleaning outputDir: /var/folders/qp/4w0ndxsx53qgt5zs5qw93tc40000gp/T/chromatic--76748-gghdrj11dGUt
+info => Cleaning outputDir: /var/folders/qp/4w0ndxsx53qgt5zs5qw93tc40000gp/T/chromatic--97612-H9Pgynz2nmzf
 info => Loading presets
 info => Building manager..
-info => Manager built (184 ms)
+info => Manager built (218 ms)
 info => Compiling preview..
-info => Copying static files: /Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/manager/static at /var/folders/qp/4w0ndxsx53qgt5zs5qw93tc40000gp/T/chromatic--76748-gghdrj11dGUt/sb-common-assets
+info => Copying static files: /Users/jacobcounsell/Documents/GitHub/ND_Design/node_modules/@storybook/manager/static at /var/folders/qp/4w0ndxsx53qgt5zs5qw93tc40000gp/T/chromatic--97612-H9Pgynz2nmzf/sb-common-assets
 info Addon-docs: using MDX2
 info => Using implicit CSS loaders
 info => Using default Webpack5 setup
@@ -109,12 +109,12 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 10% building import loader ./node_modules/babel-loader/lib/index.js
 <s> [webpack.Progress] 10% building 0/1 entries 1/1 dependencies 0/1 modules
 <s> [webpack.Progress] 10% building 0/1 entries 1/2 dependencies 0/1 modules
-<s> [webpack.Progress] 18% building import loader ./node_modules/@storybook/mdx2-csf/loader.js
-<s> [webpack.Progress] 18% building 0/1 entries 29/100 dependencies 4/27 modules
-<s> [webpack.Progress] 15% building import loader ./node_modules/unplugin/dist/webpack/loaders/transform.js
-<s> [webpack.Progress] 15% building import loader ./node_modules/@storybook/source-loader/dist/index.js
-<s> [webpack.Progress] 15% building 0/1 entries 106/159 dependencies 7/69 modules
-<s> [webpack.Progress] 54% building 1/1 entries 245/304 dependencies 40/141 modules
+<s> [webpack.Progress] 17% building import loader ./node_modules/@storybook/mdx2-csf/loader.js
+<s> [webpack.Progress] 17% building 0/1 entries 31/117 dependencies 4/28 modules
+<s> [webpack.Progress] 16% building import loader ./node_modules/unplugin/dist/webpack/loaders/transform.js
+<s> [webpack.Progress] 16% building import loader ./node_modules/@storybook/source-loader/dist/index.js
+<s> [webpack.Progress] 16% building 0/1 entries 113/163 dependencies 8/70 modules
+<s> [webpack.Progress] 55% building 1/1 entries 257/312 dependencies 50/149 modules
 <s> [webpack.Progress] 99% cache begin idle
 <s> [webpack.Progress] 99% cache begin idle
 <s> [webpack.Progress] 100% 

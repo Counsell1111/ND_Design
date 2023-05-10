@@ -1,4 +1,4 @@
-import { textarea_footer } from './Textarea_footer';
+import { textarea_footer } from './Textarea-footer';
 
 export default {
   title: 'Components/TextArea/TextArea Footer',
