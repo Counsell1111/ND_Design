@@ -141,6 +141,7 @@ min-width: 50px;
 .doc_foot{
   padding: 0px;
   height: 20px;
+  display: flex;
 }
 
 .doc_ico{
