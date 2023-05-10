@@ -9,7 +9,7 @@ export default {
     validate_state: { control: 'inline-radio', options: ['none', 'success', 'warning', 'error'] },   
     disabled: { control: 'boolean', options: [ 'disabled', ''] },   
     required: { control: 'boolean', options: [ 'required', ''] },
-    contentAfter: { control: 'boolean', options: [ '<link>Copy Me</link>','' ]}
+    contenta_after: { control: 'boolean', options: [ '<link>Copy Me</link>','' ]}
   },
 };
 
@@ -21,6 +21,7 @@ export const Primary = {
       validate_state: 'none',
       disabled: '',
       required: '',
+      contenta_after: '',
   },
 };
 
@@ -32,6 +33,7 @@ export const Small = {
         validate_state: 'none',
         disabled: '',
         required: '',
+        contenta_after: '',
     },
   };
 
@@ -43,6 +45,7 @@ export const Medium = {
         validate_state: 'none',
         disabled: '',
         required: '',
+        contenta_after: '',
     },
   };
   
@@ -54,6 +57,7 @@ export const Medium = {
         validate_state: 'none',
         disabled: '',
         required: '',
+        contenta_after: '',
     },
   };
 
@@ -65,6 +69,7 @@ export const Medium = {
         validate_state: 'success',
         disabled: '',
         required: '',
+        contenta_after: '',
     },
   };
 
@@ -76,6 +81,7 @@ export const Medium = {
         validate_state: 'warning',
         disabled: '',
         required: '',
+        contenta_after: '',
     },
   };
 
@@ -87,6 +93,7 @@ export const Medium = {
         validate_state: 'error',
         disabled: '',
         required: '',
+        contenta_after: '',
     },
   };
 
@@ -98,6 +105,7 @@ export const Medium = {
         validate_state: 'none',
         disabled: 'disabled',
         required: '',
+        contenta_after: '',
     },
   };
 
@@ -109,7 +117,7 @@ export const Medium = {
       validate_state: 'none',
       disabled: '',
       required: '',
-      contentAfter: '<link>Copy Me</link>',
+      contenta_after: '<link>Copy Me</link>',
     }
   }
   
