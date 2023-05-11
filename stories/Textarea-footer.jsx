@@ -17,6 +17,7 @@ import {
     SplitButton,
     ButtonProps,
     MenuButtonProps, makeStyles } from "@fluentui/react-components";
+    import { MoreVertical28Filled, Link28Filled, DocumentBulletList24Regular } from "@fluentui/react-icons";
 import React from 'react';
 import PropTypes from 'prop-types';
 import './global.css';
