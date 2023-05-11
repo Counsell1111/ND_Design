@@ -27,7 +27,7 @@ const useStyles = makeStyles({
        display: "flex",
        flexDirection: "column",
        ...shorthands.gap("2px"),
-       maxWidth: "500px",
+       maxWidth: "365px",
        width: "100%",
     },
   });

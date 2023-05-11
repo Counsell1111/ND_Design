@@ -13,7 +13,8 @@ const useStyles = makeStyles({
        display: "flex",
        flexDirection: "column",
        ...shorthands.gap("2px"),
-       maxWidth: "400px",
+       maxWidth: "365px",
+       width: "100%",
     },
   });
 
