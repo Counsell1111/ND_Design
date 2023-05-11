@@ -1,7 +1,7 @@
 import { textarea } from './Textarea';
 
 export default {
-  title: 'Components/TextArea',
+  title: 'Components/TextArea/TextArea',
   component: textarea,
   tags: ['autodocs'],
   argTypes: {
