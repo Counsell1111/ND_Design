@@ -33,7 +33,7 @@
     "chromatic": "npx chromatic --project-token=b84b99710731"
   },
   "name": "nd_design",
-  "version": "1.0",
+  "version": "1",
   "readme": "ERROR: No README data found!",
   "type": "module"
 }
